@@ -1,0 +1,84 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Introduction}{2}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Contexte}}\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/3}{Contexte}{0}}
+\headcommand {\beamer@framepages {2}{3}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{Contexte}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{3}{5/6}{Contexte}{0}}
+\headcommand {\beamer@framepages {5}{6}}
+\headcommand {\slideentry {1}{1}{4}{7/7}{Contexte}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{8}{M\IeC {\'e}thodologie}}\headcommand {\beamer@subsectionpages {2}{7}}
+\headcommand {\slideentry {1}{2}{1}{8/11}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@framepages {8}{11}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{12}{D\IeC {\'e}finition de la probl\IeC {\'e}matique}}\headcommand {\beamer@subsectionpages {8}{11}}
+\headcommand {\slideentry {1}{3}{1}{12/14}{D\IeC {\'e}finition de la probl\IeC {\'e}matique}{0}}
+\headcommand {\beamer@framepages {12}{14}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{15}{Objectifs}}\headcommand {\beamer@subsectionpages {12}{14}}
+\headcommand {\slideentry {1}{4}{1}{15/15}{Objectifs}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{4}{2}{16/16}{Objectifs}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\sectionentry {2}{Optimisation bas\IeC {\'e}e sur la Programmation Dynamique}{17}{Optimisation bas\IeC {\'e}e sur la Programmation Dynamique}{0}}
+\headcommand {\beamer@sectionpages {2}{16}}
+\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{17}{Processus de d\IeC {\'e}cision Marcovien}}\headcommand {\beamer@subsectionpages {17}{16}}
+\headcommand {\slideentry {2}{1}{1}{17/17}{Processus de d\IeC {\'e}cision Marcovien}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{18}{Programmation dynamique}}\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\slideentry {2}{2}{1}{18/18}{Programmation dynamique}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{2}{2}{19/19}{Programmation dynamique}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{2}{3}{20/20}{Programmation dynamique}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{21}{R\IeC {\'e}sultats obtenus avec la programmation dynamique}}\headcommand {\beamer@subsectionpages {18}{20}}
+\headcommand {\slideentry {2}{3}{1}{21/21}{R\IeC {\'e}sultats obtenus avec la programmation dynamique}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\sectionentry {3}{Recharge intelligente de VE}{22}{Recharge intelligente de VE}{0}}
+\headcommand {\beamer@sectionpages {17}{21}}
+\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\sectionentry {4}{Syst\IeC {\`e}me d'information}{22}{Syst\IeC {\`e}me d'information}{0}}
+\headcommand {\beamer@sectionpages {22}{21}}
+\headcommand {\beamer@subsectionpages {22}{21}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{22}{Analyse univari\IeC {\'e}e des donn\IeC {\'e}es}}\headcommand {\beamer@subsectionpages {22}{21}}
+\headcommand {\slideentry {4}{1}{1}{22/22}{Analyse univari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{23}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}}\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\slideentry {4}{2}{1}{23/24}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {23}{24}}
+\headcommand {\slideentry {4}{2}{2}{25/26}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {25}{26}}
+\headcommand {\slideentry {4}{2}{3}{27/27}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\sectionentry {5}{Stratification des donn\IeC {\'e}es}{28}{Stratification des donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@sectionpages {22}{27}}
+\headcommand {\beamer@subsectionpages {23}{27}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{28}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}}\headcommand {\beamer@subsectionpages {28}{27}}
+\headcommand {\slideentry {5}{1}{1}{28/28}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {5}{1}{2}{29/29}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {5}{1}{3}{30/30}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{31}{Analyse des r\IeC {\'e}sultats}}\headcommand {\beamer@subsectionpages {28}{30}}
+\headcommand {\slideentry {5}{2}{1}{31/33}{Analyse des r\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {31}{33}}
+\headcommand {\sectionentry {6}{Contributions}{34}{Contributions}{0}}
+\headcommand {\beamer@sectionpages {28}{33}}
+\headcommand {\beamer@subsectionpages {31}{33}}
+\headcommand {\slideentry {6}{0}{1}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {6}{0}{2}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {6}{0}{3}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@partpages {1}{36}}
+\headcommand {\beamer@subsectionpages {34}{36}}
+\headcommand {\beamer@sectionpages {34}{36}}
+\headcommand {\beamer@documentpages {36}}
+\headcommand {\def \inserttotalframenumber {24}}

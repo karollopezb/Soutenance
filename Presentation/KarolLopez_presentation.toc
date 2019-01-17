@@ -1,0 +1,17 @@
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Contexte}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{M\IeC {\'e}thodologie}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{D\IeC {\'e}finition de la probl\IeC {\'e}matique}{12}{0}{1}
+\beamer@subsectionintoc {1}{4}{Objectifs}{15}{0}{1}
+\beamer@sectionintoc {2}{Optimisation bas\IeC {\'e}e sur la Programmation Dynamique}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Processus de d\IeC {\'e}cision Marcovien}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Programmation dynamique}{18}{0}{2}
+\beamer@subsectionintoc {2}{3}{R\IeC {\'e}sultats obtenus avec la programmation dynamique}{21}{0}{2}
+\beamer@sectionintoc {3}{Recharge intelligente de VE}{22}{0}{3}
+\beamer@sectionintoc {4}{Syst\IeC {\`e}me d'information}{22}{0}{4}
+\beamer@subsectionintoc {4}{1}{Analyse univari\IeC {\'e}e des donn\IeC {\'e}es}{22}{0}{4}
+\beamer@subsectionintoc {4}{2}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{23}{0}{4}
+\beamer@sectionintoc {5}{Stratification des donn\IeC {\'e}es}{28}{0}{5}
+\beamer@subsectionintoc {5}{1}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{28}{0}{5}
+\beamer@subsectionintoc {5}{2}{Analyse des r\IeC {\'e}sultats}{31}{0}{5}
+\beamer@sectionintoc {6}{Contributions}{34}{0}{6}

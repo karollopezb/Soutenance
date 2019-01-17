@@ -1,0 +1,661 @@
+% !TEX encoding = UTF-8 Unicode
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+\documentclass[french]{beamer}
+\usepackage{beamerthemesplit}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{anyfontsize}
+\usepackage{amsmath,amssymb,amsfonts,amsbsy}
+\usepackage{eqnarray,amsmath}
+\usepackage{booktabs}
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+% algorithms
+\usepackage{algorithmic}
+\usepackage{algorithm}
+% mathematical
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{animate}
+\usepackage{hyperref}
+\epstopdfDeclareGraphicsRule{.gif}{png}{.png}{convert gif:#1 png:\OutputFile}
+\AppendGraphicsExtensions{.gif}% http://ctan.org/pkg/pifont
+\definecolor{MediumSeaGreen}{rgb}{0.2344,0.6992,0.4414}
+\newcommand{\cmark}{\textcolor{MediumSeaGreen}{\ding{52}}}%
+\newcommand{\xmark}{\textcolor{red}{\ding{54}}}%
+\renewcommand{\multirowsetup}{\centering}		% to use centering in multirow command	%DB
+\newcommand{\B}[1]{\textbf{#1}}	% to obtain bold fonts %DB
+\newcommand{\DB}[1]{\textcolor{red}{#1}}	% to makes a highlighted text in hcl color
+\newcommand{\T}[1]{\textcolor{black}{#1}}	
+\graphicspath{{fig/}}
+\newcommand{\TOM}[1]{\textcolor{red}{[\textsc{TOM}: \emph{#1}]}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % to force centered columns with a specific width
+%\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+%\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\renewcommand{\multirowsetup}{\centering}	% to use centering in multirow command	%DB
+\def\s{\hphantom{0}}	% {\s} space corresponding to a number  (for tables centering) %DB
+\def\x{\hphantom{$-$}}	% {\x} space corresponding to a negative (for tables centering) 
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\graphicspath{{fig}}
+
+\DeclareGraphicsExtensions{.pdf,.png,.eps,.jpg}
+\tolerance=1000
+\hyphenpenalty=1000
+\overfullrule=1mm
+\providecommand{\ve}[1]{{\pmb{#1}}} %
+\providecommand{\mat}[1]{{\pmb{#1}}} %
+\DeclareMathOperator{\Real}{\mathbb{R}}
+\DeclareMathOperator{\Natural}{\mathbb{N}}
+\mode<presentation>{
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+% \usetheme{default}
+% \usetheme{AnnArbor}
+% \usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+% % % % % \usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+% \usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+% \usepackage[font=Times,timeinterval=30,timeduration=15,timewarningfirst=80,timewarningsecond=90,colorwarningfirst=blue,fillcolorwarningfirst=white!60!yellow, fillcolorwarningsecond=white!10!yellow, resetatpages=2]{tdclock}
+
+
+% \addtobeamertemplate{navigation symbols}{}{%
+%     \usebeamerfont{footline}%
+%     \usebeamercolor[fg]{footline}%
+%     \hspace{1em}%
+%     \insertframenumber/\inserttotalframenumber
+% }
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Recharge intelligente de VE]{Une approche d'apprentissage automatique pour la recharge intelligente des véhicules électriques} 
+% \title[Recharge intelligente de VE \hspace{5mm} \cronominutes:\cronoseconds]{Une approche d'apprentissage automatique pour la recharge intelligente des véhicules électriques} 
+
+\author[Karol Lina L\'opez]{\texorpdfstring{Karol Lina L\'opez\newline\href{mailto:karol-lina.lopez.1@ulaval.ca}{karol-lina.lopez.1@ulaval.ca}}{Karol Lina L\'opez}}
+  \centering
+ \titlegraphic{
+ \begin{minipage}{0.33\textwidth}
+ \includegraphics[width=2.5cm]{fig/REPARTI.jpg}
+ \end{minipage}\hfill%
+ \begin{minipage}{0.33\textwidth}
+ \includegraphics[width=2.5cm]{fig/ul_logo.pdf}
+ \end{minipage}\hfill%
+ \begin{minipage}{0.33\textwidth}
+ \includegraphics[width=2.5cm]{fig/LVSN2.png}
+ \end{minipage}
+}
+\date{22 jan 2019} % Date, can be changed to a custom date
+
+
+\begin{document}
+
+
+{\setbeamercolor{block body}{bg=white}
+\newcommand{\abs}[1]{\left\vert#1\right\vert}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\mean}{\operatornamewithlimits{mean}}
+
+\begin{frame}
+% \initclock
+\titlepage % Print the title page as the first slide
+\end{frame}
+% 
+% \begin{frame}
+% \frametitle{Plan de la présentation} % Table of contents slide, comment this block out to remove it
+% \fontsize{10}{1}{
+% \tableofcontents[hideallsubsections]}% Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+% \end{frame}
+
+% 
+% 
+% \begin{frame}
+% \frametitle{}
+% 
+% \end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+%\section{Pourquoi des ensembles ?}
+
+\section{Introduction}
+\subsection{Contexte}
+
+% \begin{frame}
+% \frametitle{Prévision de l'achat de VEs}
+% \begin{center}
+% %\includegraphics<1>[width=0.7\linewidth]{Electric-Cars_sales.png}
+% \includegraphics[width=0.7\linewidth]{BNEFforetast.jpg}
+% %\includegraphics<2>[width=0.7\linewidth]{PEV-Sales-Canada.jpg}
+% %\includegraphics<2>[width=0.7\linewidth]{previsiondemande.jpg}
+% \end{center}
+% \end{frame}
+% 
+% \begin{frame}
+% \frametitle{Progression des ventes de Véhicules Électriques (VE)}
+% \begin{center}
+% %\includegraphics<1>[width=0.7\linewidth]{Electric-Cars_sales.png}
+% % \includegraphics[width=0.8\linewidth]{salesEV.pdf}\\
+% \includegraphics[width=0.8\linewidth]{fig/salesEV.pdf}\\
+% \tiny{Source: Cobb, Jeff. 2017. "Top 10 Plug-in Vehicle Adopting Countries of 2016". HybridCars.com. Retrieved 2017-01-23.}
+% %\includegraphics<2>[width=0.7\linewidth]{PEV-Sales-Canada.jpg}
+% %\includegraphics<2>[width=0.7\linewidth]{previsiondemande.jpg}
+% \end{center}
+% \end{frame}
+
+\begin{frame}
+\frametitle{Effets de la recharge sur le réseau électrique}
+\begin{center}
+\begin{figure}
+\includegraphics<1>[width=0.9\linewidth]{fig/smartgrid.png}
+\caption*{\only<1>{\tiny{Source: Inauguration of the European Interoperability Centre for Electric Vehicles and Smart Grids}}}
+
+\includegraphics<2>[width=0.6\linewidth]{fig/picos.pdf}
+\caption*{\only<2>{\tiny{Source: Report on the Economic and Environmental Impacts of Large-Scale Introduction on EV/PHEV. Shakoor $\&$ Aunedi, 2011}}}
+\end{figure}
+% \tiny{Source: Inauguration of the European Interoperability Centre for Electric Vehicles and Smart Grids}
+% \tiny{Source: Report on the Economic and Environmental Impacts of Large-Scale Introduction on EV/PHEV. Shakoor and Aunedi, 2011}
+\end{center}
+\end{frame}
+
+% 
+% 
+% 
+% 
+\begin{frame}
+% %  http://www.intechopen.com/books/electric-vehicles-the-benefits-and-barriers/integration-of-electric-vehicles-in-the-electric-utility-systems
+\frametitle{Comment faciliter la recharge intelligente de VE ?}
+% \begin{center}
+\begin{figure}
+\includegraphics[width=\linewidth]{fig/figConcMap.pdf}
+\end{figure}
+% % \includegraphics<1>[width=0.6\linewidth]{previsiondemande.jpg}
+% % \includegraphics[width=0.8\linewidth]{picos.pdf}\\
+% \includegraphics[width=0.8\linewidth]{fig/picos.pdf}\\
+% \tiny{Source: Report on the Economic and Environmental Impacts of Large-Scale Introduction on EV/PHEV. Shakoor and Aunedi, 2011}
+% % \caption*{\only<1>{}\only<2>{\tiny Source: Report on the Economic and Environmental Impacts of Large-Scale Introduction on EV/PHEV. Shakoor $\&$ Aunedi, 2011}}
+% \end{figure} 
+% %{\tiny Source: Inauguration of the European Interoperability Centre for Electric Vehicles and Smart Grids}
+% \end{center}
+
+\end{frame}
+% 
+
+\begin{frame}
+\frametitle{Stratégies pour la gestion de la demande}
+\begin{columns}[T]
+\begin{column}[T]{0.5\linewidth}
+\begin{overlayarea}{0.95\linewidth}{2.8in}
+\only<1->{
+\begin{block}{Contrôle direct} 
+\vspace{1mm}
+\includegraphics[width=\linewidth]{fig/elNet.jpg}
+\end{block}
+}
+\end{overlayarea}
+\end{column}
+
+\begin{column}[T]{0.5\linewidth}  %%<--- here
+\begin{overlayarea}{0.95\linewidth}{2.8in}
+\only<2->{
+\begin{block}{Tarification dynamique} 
+\includegraphics[width=\linewidth]{fig/mb.jpg}
+\end{block}
+}
+\end{overlayarea}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+\frametitle{Tarification dynamique}
+\includegraphics<1>[width=\linewidth]{fig/hydroquebec.jpg}
+\end{center}
+\end{frame}
+
+
+
+
+\subsection{Méthodologie}
+ 
+
+\begin{frame}
+\begin{center}
+\frametitle{Méthodologie}
+\begin{overlayarea}{\linewidth}{2.8in}
+% \includegraphics<1 | handout:0>[width=\linewidth]{meth01.pdf}
+% \includegraphics<2 | handout:0>[width=\linewidth]{meth02.pdf}
+% \includegraphics<3 | handout:0>[width=\linewidth]{meth03.pdf}
+% \includegraphics<4>[width=\linewidth]{meth04.pdf}
+\includegraphics<1 | handout:0>[width=\linewidth]{fig/meth01.pdf}
+\includegraphics<2 | handout:0>[width=\linewidth]{fig/meth02.pdf}
+\includegraphics<3 | handout:0>[width=\linewidth]{fig/meth03.pdf}
+\includegraphics<4>[width=\linewidth]{fig/meth04.pdf}
+\end{overlayarea}
+\end{center}
+\end{frame}
+
+
+
+
+
+\subsection{Définition de la problématique}
+
+
+\begin{frame}
+\begin{center}
+\frametitle{Programmation des périodes de recharge}
+\includegraphics<1>[width=0.9\linewidth]{fig/obj01.pdf}
+\includegraphics<2>[width=0.9\linewidth]{fig/obj02.pdf}
+\includegraphics<3>[width=0.9\linewidth]{fig/obj03.pdf}
+\end{center}
+\end{frame}
+
+
+
+\subsection{Objectifs}
+
+\begin{frame}
+\frametitle{Objectif: Minimiser le coût en énergie du VE}
+\begin{center}
+\begin{figure}
+% \includegraphics[width=\linewidth]{minFct.pdf}
+\includegraphics[width=\linewidth]{fig/minFct.pdf}
+\end{figure} 
+ \end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Objectif: Minimiser le coût en énergie du VE}
+\begin{center}
+\begin{equation}
+\min_{\{a(t)\}_{t=1}^T}~\sum_{t=1}^{T} \left[z(t) \cdot S_p(t) + (1-z(t)) \cdot S_u(t)\right],
+\label{eq:cost}
+\end{equation}
+
+
+\begin{equation}\label{eq:costp1}
+S_p(t) = a(t) \cdot C_{el}(t) \cdot \frac{E_{ch}(SoC(t))}{\eta},
+\end{equation}
+
+
+\begin{equation}\label{eq:costp2}
+S_u(t) = C_{fuel}(t) \cdot \max(F_{c}(SoC(t)),0),
+\end{equation}
+\end{center}
+\end{frame}
+
+
+
+
+
+
+\section{Optimisation basée sur la Programmation Dynamique}
+\subsection{Processus de décision Marcovien}
+
+\begin{frame}
+\frametitle{Processus de décision Marcovien}
+\begin{center}
+\begin{itemize}
+\item Les états :
+ 
+\begin{equation}
+s(t) = \frac{\lfloor \mathit{SoC}(t) \cdot B \rfloor + 0.5}{B}, 
+\label{eq:state}
+\end{equation}
+\item Les actions ($a=0$, $a=1$)
+\item La function de transition (modèle de batterie)
+\item La function de récompense :
+\begin{equation}
+r(s(t),a) =
+\begin{cases}
+0 & \text{if $z(t)=1$ and $a=0$}\\
+-C_{el}(t) \cdot \frac{E_{ch}(SoC(t))}{\eta} & \text{if $z(t)=1$ and $a=1$}\\
+- C_{fuel}(t) \cdot F_{c}(SoC(t)) & \text{if $z(t)=0$}   
+\end{cases}.\label{eq:reward}
+\end{equation}
+\end{itemize}
+\end{center}
+\end{frame}
+
+
+\subsection{Programmation dynamique}
+
+
+\begin{frame}
+\begin{center}
+\frametitle{Optimisation basée sur la Programmation Dynamique}
+
+\begin{equation}
+Q(s(t),a) =
+r(s(t),a) + \max\limits_{a\in\mathcal{A}} Q(s(t+1),a) 
+\end{equation}
+
+\begin{equation}
+a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
+\end{equation}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple illustrative de la programmation dynamique pour prise de décisions}
+\begin{center}
+\begin{figure}
+% \includegraphics[width=\linewidth]{minFct.pdf}
+\includegraphics[width=0.5\linewidth]{fig/figDinamycProgram04.pdf}
+\end{figure} 
+ \end{center}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Analyse de l'intervalle de temps}
+\begin{center}
+\begin{figure}
+% \includegraphics[width=\linewidth]{minFct.pdf}
+\includegraphics[width=0.4\linewidth]{fig/figresDeltaWithoutGasBWcolor02.pdf}
+\end{figure} 
+ \end{center}
+\end{frame}
+
+\subsection{Résultats obtenus avec la programmation dynamique}
+
+\begin{frame}
+\begin{center}
+\frametitle{Comparaison de la programmation dynamique avec des techniques de base}
+
+% \begin{table}[t!]
+% \begin{center}
+% \caption[Cost and gain of \gls{dp}, \gls{ac}, and \gls{rd} models in summer and winter.]{Cost and gain regarding the \gls{gas} in relation of \gls{dp}, \gls{ac}, and \gls{rd} models in summer and winter test datasets, for the 17 \glspl{ev} evaluated. Values corresponding to the cost ($\$$) are related to the energy cost of the usage during the period, while values given as percentage ($\%$) correspond to the gain of the each strategy compared to driving only with \gls{gas}.}
+% \label{t:ACmodel}
+\scalebox{0.4}{
+\begin{tabular}{cccccccccccccccc}
+\toprule
+\multirow{3}{*}{\B{EV}} & \multicolumn{7}{c}{\B{Summer}} & & \multicolumn{7}{c}{\B{Winter}} \\
+& \B{GAS} & \multicolumn{2}{c}{\B{DP}} & \multicolumn{2}{c}{\B{AC}} & \multicolumn{2}{c}{\B{RD}} & & 
+\B{GAS} & \multicolumn{2}{c}{\B{DP}} & \multicolumn{2}{c}{\B{AC}} & \multicolumn{2}{c}{\B{RD}} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){11-12} \cmidrule(lr){13-14} \cmidrule(lr){15-16}
+{} & \B{\$} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & {} &
+ \B{\$} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & \B{\$} & \B{\%} \\
+\midrule 
+203 & 131.2 & 34.0 & 74 & \s91.0 & 31 & \s93.7 & 29 & & \s65.1 & \s7.9 & 88 & \s29.1 & 55 & \s30.1 & 54 \\
+205 & \s93.0 & 22.1 & 76 & \s57.4 & 38 & \s57.1 & 39 & & \s45.5 & \s5.4 & 88 & \s22.2 & 51 & \s24.8 & 45 \\
+206 & \s52.4 & \s1.5 & 97 & \s16.4 & 69 & \s14.6 & 72 & & \s34.9 & \s5.5 & 84 & \s20.5 & 41 & \s21.4 & 39 \\
+213 & 187.4 & 15.7 & 92 & \s60.6 & 68 & \s60.4 & 68 & & \s66.5 & \s7.4 & 89 & \s27.2 & 59 & \s28.7 & 57 \\
+215 & 230.8 & 66.8 & 71 & 165.6 & 28 & 184.1 & 20 & & \s58.8 & \s6.3 & 89 & \s24.6 & 58 & \s25.2 & 57 \\
+216 & \s93.2 & \s3.3 & 96 & \s24.7 & 73 & \s23.9 & 74 & & \s79.2 & 19.4 & 76 & \s55.8 & 29 & \s59.1 & 25 \\
+218 & \s81.0 & \s3.2 & 96 & \s21.4 & 74 & \s20.7 & 74 & & \s40.5 & \s4.2 & 90 & \s18.3 & 55 & \s18.8 & 53 \\
+222 & \s66.5 & \s3.0 & 95 & \s21.0 & 68 & \s21.9 & 67 & & \s42.9 & \s4.6 & 89 & \s19.3 & 55 & \s20.8 & 52 \\
+224 & 228.4 & 87.1 & 62 & 207.2 & \s9 & 220.8 & \s3 & & \s31.9 & \s2.8 & 91 & \s13.8 & 57 & \s13.1 & 59 \\
+225 & \s64.4 & \s1.4 & 98 & \s17.7 & 73 & \s15.8 & 75 & & \s66.0 & \s8.4 & 87 & \s28.1 & 57 & \s29.9 & 55 \\
+237 & 156.8 & 17.3 & 89 & \s56.5 & 64 & \s63.0 & 60 & & 108.3 & 14.2 & 87 & \s44.4 & 59 & \s47.4 & 56 \\
+239 & \s72.2 & \s2.5 & 97 & \s23.3 & 68 & \s22.0 & 70 & & \s64.2 & \s7.4 & 88 & \s26.4 & 59 & \s28.5 & 56 \\
+242 & 364.3 & 98.0 & 73 & 232.5 & 36 & 287.3 & 21 & & 178.0 & 49.6 & 72 & 133.8 & 25 & 150.1 & 16 \\
+249 & 122.1 & \s5.0 & 96 & \s34.9 & 71 & \s32.9 & 73 & & \s36.1 & \s3.6 & 90 & \s15.1 & 58 & \s15.9 & 56 \\
+262 & \s20.8 & \s0.4 & 98 & \s\s6.2 & 70 & \s\s5.8 & 72 & & \s61.8 & \s6.4 & 90 & \s25.8 & 58 & \s27.2 & 56 \\
+263 & \s32.0 & \s2.3 & 93 & \s\s9.6 & 70 & \s\s8.3 & 74 & & \s52.8 & \s7.2 & 86 & \s23.0 & 56 & \s24.7 & 53 \\
+265 & \s57.7 & \s1.6 & 97 & \s17.3 & 70 & \s15.7 & 73 & & \s23.8 & \s2.4 & 90 & \s10.9 & 54 & \s11.1 & 53 \\
+\B{Mean} & \B{120.8} & \B{\s21.5} & \B{88} & \B{\s62.6} & \B{58} & \B{\s67.5} & \B{57} &  & \B{\s62.1} & \B{\s9.6} & \B{87} & \B{\s31.7} & \B{52} & \B{\s33.9} & \B{50} \\
+\B{Median} & \B{\s93.0} & \B{\s3.3} & \B{96} & \B{\s24.7} & \B{68} & \B{\s23.9} & \B{70} &  & \B{\s58.8} & \B{\s6.4} & \B{88} & \B{\s24.6} & \B{56} & \B{\s25.2} & \B{54} \\
+\bottomrule    
+\end{tabular}
+}
+% \end{center}
+% \end{table}
+\end{center}
+\end{frame}
+
+
+
+\section{Recharge intelligente de VE}
+
+\section{Système d'information}
+\subsection{Analyse univariée des données}
+\begin{frame}
+\frametitle{Analyses univariées des données - Corrélation et ACP} 
+\end{frame}
+
+\subsection{Analyse multivariée des données}
+\begin{frame}
+\frametitle{Analyses multivariées des données - Corrélation et ACP} 
+
+\begin{table}[t!]
+\begin{center}
+\centering
+\scalebox{0.65}{
+\begin{tabular}{ccccccc}
+\toprule
+{} & \textbf{Temperature} & \textbf{Energy used} & \textbf{Gasoline price} & \textbf{HOD} & \textbf{HOEP} & \textbf{Distance} \\
+\midrule
+\textbf{Temperature}   & \x1.00&0.02&0.81&$-$0.02&0.15&0.02\\
+\textbf{Energy used}    & \x0.02&1.00&0.02&\x0.06&0.06&1.00\\
+\textbf{Gasoline price} & \x0.81&0.02&1.00&$-$0.00&0.17&0.02\\
+\textbf{HOD}                & $-$0.02&0.06&0.00&\x1.00&0.71&0.06\\
+\textbf{HOEP}              & \x0.15&0.06&0.17&\x0.71&1.00&0.06\\
+\textbf{Distance}         & \x0.02&1.00&0.02&\x0.06&0.06&1.00\\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+\pause
+
+\begin{table}
+\begin{center}
+\centering
+\scalebox{0.65}{
+\begin{tabular}{lcccccc}
+\toprule
+{} & \textbf{1$^{\mbox{st}}$} & \textbf{2$^{\mbox{nd}}$} & 
+\textbf{3$^{\mbox{rd}}$} & \textbf{4$^{\mbox{th}}$} & \textbf{5$^{\mbox{th}}$} \\
+\midrule
+\textbf{Temperature}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
+\textbf{Energy used}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
+\textbf{Gasoline price} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
+\textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
+\textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+\end{table}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Définition du Système d'Information} 
+
+
+\begin{itemize}
+\item HOEP ($\ve{x}^1$), HOD ($\ve{x}^2$), and  air temperature ($\ve{x}^3$) with 101 lags.
+\item Energy consumed ($\ve{x}^4$) with 199 lags.
+\item Scalar variables (converted into real values when necessary and normalized in the range $[0,1]$):
+\begin{itemize}
+\item $w_1:$ weekdays;
+\item $w_2:$ hour;
+\item $w_3: C_\mathit{el}(t-1)-C_\mathit{el}(t)$ is the difference in electricity price;
+\item $w_4: C_\mathit{el}(t)$ is the electricity price [\$/kWh] at time $t$;
+\item $w_5: C_\mathit{fuel}(t)$ is the gasoline price [\$/l] at time $t$;
+\item $w_6: dis(t)$ is the distance traveled [km] at time $t$.
+\end{itemize}
+\end{itemize}
+
+\pause
+... et l'état de charge du véhicule ainsi que les optimal décisions obtenues avec la programmation dynamique.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{ACP du Système d'Information} 
+\begin{figure}
+\begin{center}
+% \includegraphics[width=0.7\textwidth]{fig/figPCAvarExplained.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+
+
+\section{Stratification des données}
+\subsection{Méthode pour la stratification de données}
+\begin{frame}
+\frametitle{Stratification des données} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{fig/strat.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+% 
+\begin{frame}
+\frametitle{Stratification dans un problème de régression avec réseau de neurones} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{fig/Diff_ANN_Inp_space_year_2003.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Stratification dans un problème de régression avec machines à vecteurs de support} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{fig/Diff_SVR_Inp_state_year_2003.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+% 
+
+\subsection{Analyse des résultats}
+
+\begin{frame}
+\begin{center}
+\begin{overlayarea}{\linewidth}{2.8in}
+\includegraphics<1 | handout:0>[width=\linewidth]{fig/resultats01.pdf}
+\includegraphics<2 | handout:0>[width=\linewidth]{fig/resultats02.pdf}
+\includegraphics<3>[width=\linewidth]{fig/resultats03.pdf}
+\end{overlayarea}
+\end{center}
+\end{frame}
+
+
+
+\section{Contributions}
+\begin{frame}
+\frametitle{Contributions}
+\begin{itemize} 
+\item Définition de la recharge comme un problème de prise de décisions en temps réel
+\item Développement des algorithmes d'apprentissage pour la recharge intelligente de VE
+\item Analyse des données
+\item Convergence de méthodes déterministes et de l'apprentissage automatique
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bénéfices de la recharge décentralisée des VE à tarifs dynamiques} 
+\begin{itemize}
+\item Aplatir la courbe de charge 
+%\item Minimiser la production d'électricité 
+\item Régulation de fréquence 
+\item Réduire le coût de production de l'énergie électrique 
+\item Optimiser l'efficacité générale du système
+ \end{itemize}
+\end{frame}
+
+
+{\usebackgroundtemplate{%
+  \parbox[c][\paperheight][c]{\paperwidth}{\centering\includegraphics[width=\linewidth]{fig/quest.jpg}}} 
+\begin{frame}[plain,noframenumbering]
+\begin{center}
+\textcolor{white}{\Large{\textbf{Merci de votre attention!}}} 
+\end{center}
+% \vspace{60mm}
+% \textcolor{white}{\small{\textbf{\hfill Pr\'esentation faite avec \LaTeX}}}\\
+% \hfill \includegraphics[width=0.2\linewidth]{fig/bf.pdf}
+\end{frame}
+}
+
+\end{document}
+}
+
