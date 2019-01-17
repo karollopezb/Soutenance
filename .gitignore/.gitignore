@@ -1,0 +1,14 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.spl
+*.out
+*.synctex.gz
+*~
+*.bst
+*backup
+.nfs*
+*cls
+*dvi
+*sty
