@@ -246,7 +246,7 @@
 \frametitle{Comment faciliter la recharge intelligente de VE ?}
 % \begin{center}
 \begin{figure}
-\includegraphics[width=\linewidth]{figConcMap.pdf}
+\includegraphics[width=\linewidth]{figConcMapFr.pdf}
 \end{figure}
 % % \includegraphics<1>[width=0.6\linewidth]{previsiondemande.jpg}
 % % \includegraphics[width=0.8\linewidth]{picos.pdf}\\
@@ -379,7 +379,7 @@ S_u(t) = C_{fuel}(t) \cdot \max(F_{c}(SoC(t)),0),
 \subsection{Processus de décision MarKovien}
 
 \begin{frame}
-\frametitle{Processus de décision Marcovien}
+\frametitle{Processus de décision Markovien}
 \begin{center}
 \begin{itemize}
 \item Les états :
@@ -428,7 +428,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{center}
 \begin{figure}
 % \includegraphics[width=\linewidth]{minFct.pdf}
-\includegraphics[width=0.7\linewidth]{figDinamycProgram04.pdf}
+\includegraphics[width=0.7\linewidth]{figDinamycProgram02.pdf}
 \end{figure} 
  \end{center}
 \end{frame}
@@ -479,8 +479,8 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 % 262 & \s20.8 & \s0.4 & 98 & \s\s6.2 & 70 & \s\s5.8 & 72 & & \s61.8 & \s6.4 & 90 & \s25.8 & 58 & \s27.2 & 56 \\
 % 263 & \s32.0 & \s2.3 & 93 & \s\s9.6 & 70 & \s\s8.3 & 74 & & \s52.8 & \s7.2 & 86 & \s23.0 & 56 & \s24.7 & 53 \\
 % 265 & \s57.7 & \s1.6 & 97 & \s17.3 & 70 & \s15.7 & 73 & & \s23.8 & \s2.4 & 90 & \s10.9 & 54 & \s11.1 & 53 \\
-\B{Mean} &  \B{\s62.1} & \B{\s9.6} & \B{87} & \B{\s31.7} & \B{52} & \B{\s33.9} & \B{50} \\
-\B{Median} &  \B{\s58.8} & \B{\s6.4} & \B{88} & \B{\s24.6} & \B{56} & \B{\s25.2} & \B{54} \\
+\B{Moyenne} &  \B{\s62.1} & \B{\s9.6} & \B{87} & \B{\s31.7} & \B{52} & \B{\s33.9} & \B{50} \\
+\B{Médiane} &  \B{\s58.8} & \B{\s6.4} & \B{88} & \B{\s24.6} & \B{56} & \B{\s25.2} & \B{54} \\
 \bottomrule    
 \end{tabular}
 }
@@ -513,8 +513,8 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 % 262 & \s20.8 & \s0.4 & 98 & \s\s6.2 & 70 & \s\s5.8 & 72 & & \s61.8 & \s6.4 & 90 & \s25.8 & 58 & \s27.2 & 56 \\
 % 263 & \s32.0 & \s2.3 & 93 & \s\s9.6 & 70 & \s\s8.3 & 74 & & \s52.8 & \s7.2 & 86 & \s23.0 & 56 & \s24.7 & 53 \\
 % 265 & \s57.7 & \s1.6 & 97 & \s17.3 & 70 & \s15.7 & 73 & & \s23.8 & \s2.4 & 90 & \s10.9 & 54 & \s11.1 & 53 \\
-\B{Mean} & \B{120.8} & \B{\s21.5} & \B{88} & \B{\s62.6} & \B{58} & \B{\s67.5} & \B{57} &   \\
-\B{Median} & \B{\s93.0} & \B{\s3.3} & \B{96} & \B{\s24.7} & \B{68} & \B{\s23.9} & \B{70} &  \\
+\B{Moyenne} & \B{120.8} & \B{\s21.5} & \B{88} & \B{\s62.6} & \B{58} & \B{\s67.5} & \B{57} &   \\
+\B{Médiane} & \B{\s93.0} & \B{\s3.3} & \B{96} & \B{\s24.7} & \B{68} & \B{\s23.9} & \B{70} &  \\
 \bottomrule    
 \end{tabular}
 }
@@ -548,14 +548,14 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{center}
 \centering
 \scalebox{0.65}{
-\begin{tabular}{cccccc}
+\begin{tabular}{lccccc}
 \toprule
-{} & \textbf{Temperature} & \textbf{Energy used} & \textbf{Gasoline price} & \textbf{HOD} & \textbf{HOEP} \\
+{} & \textbf{Température} & \textbf{Énergie consommée} & \textbf{Prix de l'essence} & \textbf{HOD} & \textbf{HOEP} \\
 \midrule
-\textbf{Temperature}   	& \x1.00&0.02	&\B{0.81}	&$-$0.02	&0.15	\\
-\textbf{Energy used}    & 	&1.00	&0.02	&\x0.06		&0.06	\\
-\textbf{Gasoline price} & 	&	&1.00	&$-$0.00	&0.17	\\
-\textbf{HOD}            & 	& 	&	&\x1.00		&0.71	\\
+\textbf{Température}   	& \x1.00&0.02	&\B{0.81}	&$-$0.02	&0.15	\\
+\textbf{Énergie consommée}    & 	&1.00	&0.02	&\x0.06		&0.06	\\
+\textbf{Prix de l'essence} & 	&	&1.00	&$-$0.00	&0.17	\\
+\textbf{HOD}            & 	& 	&	&\x1.00		&\B{0.71}	\\
 \textbf{HOEP}           & 	&	&	&		&1.00	\\
 \bottomrule
 \end{tabular}
@@ -574,9 +574,9 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 {} & \textbf{1$^{\mbox{st}}$} & \textbf{2$^{\mbox{nd}}$} & 
 \textbf{3$^{\mbox{rd}}$} & \textbf{4$^{\mbox{th}}$} & \textbf{5$^{\mbox{th}}$} \\
 \midrule
-\textbf{Temperature}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
-\textbf{Energy used}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
-\textbf{Gasoline price} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
+\textbf{Température}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
+\textbf{Énergie consommée}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
+\textbf{Prix de l'essence} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
 \textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
 \textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
 \bottomrule
@@ -592,21 +592,21 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 
 \begin{itemize}
-\item HOEP ($\ve{x}^1$), HOD ($\ve{x}^2$), and  air temperature ($\ve{x}^3$) with 101 lags.
-\item Energy consumed ($\ve{x}^4$) with 199 lags.
-\item Scalar variables (converted into real values when necessary and normalized in the range $[0,1]$):
+\item HOEP ($\ve{x}^1$), HOD ($\ve{x}^2$), et température extérieur ($\ve{x}^3$) with 101 décalages.
+\item énergie consommée ($\ve{x}^4$) avec 199 décalages.
+\item variables scalaires : 
 \begin{itemize}
-\item $w_1:$ weekdays;
-\item $w_2:$ hour;
-\item $w_3: C_\mathit{el}(t-1)-C_\mathit{el}(t)$ is the difference in electricity price;
-\item $w_4: C_\mathit{el}(t)$ is the electricity price [\$/kWh] at time $t$;
-\item $w_5: C_\mathit{fuel}(t)$ is the gasoline price [\$/l] at time $t$;
-\item $w_6: dis(t)$ is the distance traveled [km] at time $t$.
+\item $w_1:$ jour de la semaine,
+\item $w_2:$ heure;
+\item $w_3: C_\mathit{el}(t-1)-C_\mathit{el}(t)$ différence du prix de l'électricité,
+\item $w_4: C_\mathit{el}(t)$ prix de l'électricité au temps $t$ [\$/kWh],
+\item $w_5: C_\mathit{fuel}(t)$ prix de l’essence au temps $t$[\$/l],
+\item $w_6: dis(t)$ distance parcourue au temps $t$ [km].
 \end{itemize}
 \end{itemize}
 
 \pause
-... et l'état de charge du véhicule ainsi que les optimal décisions obtenues avec la programmation dynamique.
+... et l'état de charge du véhicule ainsi que les décisions optimales obtenues avec la programmation dynamique.
 
 \end{frame}
 
@@ -662,7 +662,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Révision de la méthodologie} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{artMeth2Compact-2.pdf}
+\includegraphics[width=0.7\textwidth]{artMeth2CompactFr.pdf}
 \end{center}
 \end{figure}
 \end{frame}
@@ -703,13 +703,24 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 % 
 
 \subsection{Analyse des résultats}
+% 
+% \begin{frame}
+% \begin{center}
+% \begin{overlayarea}{\linewidth}{2.8in}
+% \includegraphics<1 | handout:0>[width=\linewidth]{resultats01.pdf}
+% \includegraphics<2 | handout:0>[width=\linewidth]{resultats02.pdf}
+% \includegraphics<3>[width=\linewidth]{resultats03.pdf}
+% \end{overlayarea}
+% \end{center}
+% \end{frame}
+
 
 \begin{frame}
 \begin{center}
 \begin{overlayarea}{\linewidth}{2.8in}
-\includegraphics<1 | handout:0>[width=\linewidth]{resultats01.pdf}
-\includegraphics<2 | handout:0>[width=\linewidth]{resultats02.pdf}
-\includegraphics<3>[width=\linewidth]{resultats03.pdf}
+\includegraphics<1 | handout:0>[width=\linewidth]{figResAnalysis01.pdf}
+\includegraphics<2 | handout:0>[width=\linewidth]{figResAnalysis02.pdf}
+\includegraphics<3>[width=\linewidth]{figResAnalysis03.pdf}
 \end{overlayarea}
 \end{center}
 \end{frame}

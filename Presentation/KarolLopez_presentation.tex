@@ -379,7 +379,7 @@ S_u(t) = C_{fuel}(t) \cdot \max(F_{c}(SoC(t)),0),
 \subsection{Processus de décision MarKovien}
 
 \begin{frame}
-\frametitle{Processus de décision Marcovien}
+\frametitle{Processus de décision Markovien}
 \begin{center}
 \begin{itemize}
 \item Les états :
@@ -439,7 +439,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{center}
 \begin{figure}
 % \includegraphics[width=\linewidth]{minFct.pdf}
-\includegraphics[angle=90,width=0.9\linewidth]{figresDeltaWithoutGasBWcolor02-Sout.pdf}
+\includegraphics[angle=90,width=0.9\linewidth]{figresDeltaWithoutGasBWcolor02-Sout2.pdf}
 \end{figure} 
  \end{center}
 \end{frame}
@@ -636,7 +636,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Stratification dans un problème de régression avec réseau de neurones} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Diff_ANN_Inp_space_year_2003.pdf}
+\includegraphics[width=0.7\textwidth]{figDiff_ANN_Inp_state_year_2003.pdf}
 \end{center}
 \end{figure}
 \end{frame}
@@ -645,7 +645,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Stratification dans un problème de régression avec machines à vecteurs de support} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Diff_SVR_Inp_state_year_2003.pdf}
+\includegraphics[width=0.7\textwidth]{figDiff_SVR_Inp_state_year_2003.pdf}
 \end{center}
 \end{figure}
 \end{frame}
@@ -671,17 +671,17 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{frame}
 \frametitle{Techniques utilisées} 
 \begin{itemize}
-\item Threshold-Based Rule
-\item k-Nearest Neighbors
-\item Shallow Neural Network with Stratified Data
-\item Deep Neural Networks 
+\item Système de régles à base de seuils
+\item k-plus proches voisins
+\item Réseaux de neurones avec de données stratifiés
+\item Réseaux de neurones profonds
 \end{itemize}
 
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Threshold-Based Rule} 
+\frametitle{Système de régles à base de seuils} 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figtbrFr.pdf}
@@ -692,7 +692,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 
 \begin{frame}
-\frametitle{k-Nearest Neighbors} 
+\frametitle{k-plus proches voisins} 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figknn.pdf}
@@ -731,7 +731,15 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Résultats} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{figCostMLFr.pdf}
+\begin{overlayarea}{\linewidth}{2.8in}
+\includegraphics<1 | handout:0>[width=\linewidth]{figCostMLFr01.pdf}
+\includegraphics<2 | handout:0>[width=\linewidth]{figCostMLFr02.pdf}
+\includegraphics<3 | handout:0>[width=\linewidth]{figCostMLFr03.pdf}
+\includegraphics<4 | handout:0>[width=\linewidth]{figCostMLFr04.pdf}
+\includegraphics<5 | handout:0>[width=\linewidth]{figCostMLFr05.pdf}
+\includegraphics<6 | handout:0>[width=\linewidth]{figCostMLFr06.pdf}
+\includegraphics<7 | handout:0>[width=\linewidth]{figCostMLFr07.pdf}
+\end{overlayarea}
 \end{center}
 \end{figure}
 \end{frame}

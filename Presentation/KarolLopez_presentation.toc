@@ -15,4 +15,4 @@
 \beamer@sectionintoc {5}{Recharge intelligente de VE}{34}{0}{5}
 \beamer@subsectionintoc {5}{1}{M\IeC {\'e}thodologie}{34}{0}{5}
 \beamer@subsectionintoc {5}{2}{Analyse des r\IeC {\'e}sultats}{38}{0}{5}
-\beamer@sectionintoc {6}{Contributions}{42}{0}{6}
+\beamer@sectionintoc {6}{Contributions}{48}{0}{6}
