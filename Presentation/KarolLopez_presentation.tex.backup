@@ -341,7 +341,7 @@
 \begin{center}
 \begin{figure}
 % \includegraphics[width=\linewidth]{minFct.pdf}
-\includegraphics[width=\linewidth]{PriceDist_201.pdf}
+\includegraphics[width=\linewidth]{PriceDist_201Fr.pdf}
 \end{figure} 
  \end{center}
 \end{frame}
@@ -612,7 +612,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{ACP du Système d'Information} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{figPCAvarExplained.pdf}
+\includegraphics[width=0.99\textwidth]{figPCAvarExplainedFr.png}
 \end{center}
 \end{figure}
 \end{frame}
@@ -624,7 +624,8 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Stratification des données} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth]{figStratEstim_222_summer3.pdf}
+\includegraphics<1>[width=0.9\linewidth]{figClusteringTrainingFr_222_summer1.pdf}
+\includegraphics<2>[width=0.9\linewidth]{figStratEstimFr_222_summer1.pdf}
 \end{center}
 \end{figure}
 \end{frame}
@@ -651,6 +652,8 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 \section{Recharge intelligente de VE}
 
+\subsection{Méthodologie}
+
 
 
 \begin{frame}
@@ -661,6 +664,40 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \end{center}
 \end{figure}
 \end{frame}
+
+
+\begin{frame}
+\frametitle{Techniques utilisées} 
+\begin{itemize}
+\item Threshold-Based Rule
+\item k-Nearest Neighbors
+\item Shallow Neural Network with Stratified Data
+\item Deep Neural Networks 
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Threshold-Based Rule} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figtbrFr.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+% 
+
+
+\begin{frame}
+\frametitle{k-Nearest Neighbors} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figknn.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+% 
 % 
 
 \subsection{Analyse des résultats}
@@ -673,6 +710,17 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \includegraphics<3>[width=\linewidth]{resultats03.pdf}
 \end{overlayarea}
 \end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Résultats} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{figCostML.pdf}
+\end{center}
+\end{figure}
 \end{frame}
 
 
