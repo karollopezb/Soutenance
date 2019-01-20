@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.28)  19 JAN 2019 19:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.28)  19 JAN 2019 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1755,18 +1755,18 @@ e 347.
 ] [18
 
 ]
-<fig/figDinamycProgram04.pdf, id=685, pagebox=cropbox, 221.08597pt x 182.90332p
+<fig/figDinamycProgram02.pdf, id=685, pagebox=cropbox, 250.23647pt x 187.77773p
 t>
-File: fig/figDinamycProgram04.pdf Graphic file (type pdf)
-<use fig/figDinamycProgram04.pdf>
-Package pdftex.def Info: fig/figDinamycProgram04.pdf  used on input line 434. o
+File: fig/figDinamycProgram02.pdf Graphic file (type pdf)
+<use fig/figDinamycProgram02.pdf>
+Package pdftex.def Info: fig/figDinamycProgram02.pdf  used on input line 434. o
 n input line 434.
-Package pdftex.def Info: Requested size: 239.70367pt x 198.31128pt on input lin
+Package pdftex.def Info: Requested size: 239.70367pt x 179.87488pt on input lin
 e 434.
 
 [19
 
- <./fig/figDinamycProgram04.pdf>]
+ <./fig/figDinamycProgram02.pdf>]
 <fig/figresDeltaWithoutGasBWcolor02-Sout.pdf, id=714, pagebox=cropbox, 379.7487
 2pt x 524.56978pt>
 File: fig/figresDeltaWithoutGasBWcolor02-Sout.pdf Graphic file (type pdf)
@@ -2033,7 +2033,7 @@ per/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsx1440.pfb>
-Output written on KarolLopez_presentation.pdf (44 pages, 8424920 bytes).
+Output written on KarolLopez_presentation.pdf (44 pages, 8427586 bytes).
 PDF statistics:
  1678 PDF objects out of 1728 (max. 8388607)
  1456 compressed objects within 15 object streams

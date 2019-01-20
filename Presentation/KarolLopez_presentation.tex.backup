@@ -532,9 +532,11 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{frame}
 \frametitle{Analyses univariées des données} 
 \begin{overlayarea}{\linewidth}{2.8in}
-\begin{center} \includegraphics<1 | handout:0>[width=0.78\linewidth]{figUnivAnl.pdf} \end{center}
-%\includegraphics<2 | handout:0>[width=\linewidth]{resultats02.pdf}
-%\includegraphics<3>[width=\linewidth]{resultats03.pdf}
+\begin{center} 
+\includegraphics<1 | handout:0>[width=0.78\linewidth]{figUnivAnlFr1.pdf} 
+\includegraphics<2 | handout:0>[width=0.78\linewidth]{figUnivAnlFr2.pdf}
+\includegraphics<3 | handout:0>[width=0.78\linewidth]{figUnivAnlFr3.pdf}
+\end{center}
 \end{overlayarea}
 \end{frame}
 
@@ -718,7 +720,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Résultats} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{figCostML.pdf}
+\includegraphics[width=0.9\textwidth]{figCostMLFr.pdf}
 \end{center}
 \end{figure}
 \end{frame}
