@@ -1,0 +1,117 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: KarolLopez_jan22.aux
+The style file: siam.bst
+Database file #1: references.bib
+I was expecting a `,' or a `}'---line 159 of file references.bib
+ : 
+ : %url ={http://www.sciencedirect.com/science/article/pii/S0378775313003066},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 387 of file references.bib
+ :  
+ :  %url = {http://dx.doi.org/10.1561/2200000006}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 416 of file references.bib
+ : 
+ : %url ={http://www.sciencedirect.com/science/article/pii/S0301421509003978},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 730 of file references.bib
+ :  
+ :  year = {2002}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 863 of file references.bib
+ :  
+ :  %url ={http://www.sciencedirect.com/science/article/pii/S1364032116302222}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 951 of file references.bib
+ :  
+ :  % URL = {http://www.mdpi.com/1996-1073/7/4/2449}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 977 of file references.bib
+ : 
+ : %url= {http://dx.doi.org/10.1007/s11460-005-0023-7}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1101 of file references.bib
+ : 
+ : %url = {http://www.sciencedirect.com/science/article/pii/S2352467716000163},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1493 of file references.bib
+ :  
+ :  %url = {http://dx.doi.org/10.1016/j.automatica.2016.01.035},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1732 of file references.bib
+ :  
+ :  %url = {http://www.eecs.harvard.edu/econcs/pubs/Robu_jair13.pdf}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2054 of file references.bib
+ : 
+ : %url={https://doi.org/10.1007/3-540-32494-1_4}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2092 of file references.bib
+ :  
+ :  %url = {http://doi.acm.org/10.1145/1837274.1837449},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2262 of file references.bib
+ :  
+ :  %Url = {www.mathworks.com/help/pdf_doc/nnet/nnet_ug.pdf}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2513 of file references.bib
+ :  
+ :  %Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-540-77226-2_99}}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            2030 wiz_defined-function locations,
+            517 strings with 4436 characters,
+and the built_in function-call counts, 1340 in all, are:
+= -- 129
+> -- 62
+< -- 0
++ -- 23
+- -- 20
+* -- 104
+:= -- 206
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 59
+empty$ -- 97
+format.name$ -- 20
+if$ -- 292
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 12
+num.names$ -- 8
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 54
+stack$ -- 0
+substring$ -- 99
+swap$ -- 28
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 15
+width$ -- 4
+write$ -- 30
+(There were 14 error messages)
