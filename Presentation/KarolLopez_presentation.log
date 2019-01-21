@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.28)  20 JAN 2019 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.28)  20 JAN 2019 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1343,7 +1343,7 @@ Package: ocgbase 2017/03/30 v0.10 support package for ocgx2.sty
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps,.gif]
-(grfext)             \AppendGraphicsExtensions on input line 50.
+(grfext)             \AppendGraphicsExtensions on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeMadrid.
 sty
@@ -1357,20 +1357,20 @@ folines.sty))
 ahorse.sty) (./KarolLopez_presentation.aux)
 \openout1 = `KarolLopez_presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
+LaTeX Font Info:    ... okay on input line 175.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1421,7 +1421,7 @@ LaTeX Font Info:    ... okay on input line 173.
 \everyMPtoPDFconversion=\toks52
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring OFF on input line 173.
+Package hyperref Info: Link coloring OFF on input line 175.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1431,72 +1431,72 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 173.
-LaTeX Info: Redefining \pageref on input line 173.
-LaTeX Info: Redefining \nameref on input line 173.
+LaTeX Info: Redefining \ref on input line 175.
+LaTeX Info: Redefining \pageref on input line 175.
+LaTeX Info: Redefining \nameref on input line 175.
 
 (./KarolLopez_presentation.out) (./KarolLopez_presentation.out)
 \@outlinefile=\write5
 \openout5 = `KarolLopez_presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 173.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 175.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 173.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 175.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 173.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 173.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 175.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 173.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 173.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 173.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 175.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 173.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 173.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 173.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 175.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 173.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 173.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 173.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 175.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 173.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 173.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 175.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 173.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 175.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 173.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 173.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 173.
+(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 173.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 173.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 175.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 173.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 173.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 175.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 175.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
 (Font)              `pureletters' in the math version `normal' on input line 17
-3.
+5.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 17
-3.
+5.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 173.
+(Font)              `pureletters' in the math version `bold' on input line 175.
 
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 1
-73.
+75.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 173.
+ut line 175.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1555,22 +1555,22 @@ Package caption Info: End \AtBeginDocument code.
 <fig/REPARTI.jpg, id=73, 249.93375pt x 90.3375pt>
 File: fig/REPARTI.jpg Graphic file (type jpg)
 <use fig/REPARTI.jpg>
-Package pdftex.def Info: fig/REPARTI.jpg  used on input line 185. on input line
- 185.
+Package pdftex.def Info: fig/REPARTI.jpg  used on input line 187. on input line
+ 187.
 Package pdftex.def Info: Requested size: 71.13188pt x 25.7106pt on input line 1
-85.
-LaTeX Font Info:    Try loading font information for U+msa on input line 185.
+87.
+LaTeX Font Info:    Try loading font information for U+msa on input line 187.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 185.
+LaTeX Font Info:    Try loading font information for U+msb on input line 187.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 185.
+line 187.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1579,23 +1579,23 @@ thkerncmss.
 <fig/ul_logo.pdf, id=74, pagebox=cropbox, 313.17pt x 129.48375pt>
 File: fig/ul_logo.pdf Graphic file (type pdf)
 <use fig/ul_logo.pdf>
-Package pdftex.def Info: fig/ul_logo.pdf  used on input line 185. on input line
- 185.
+Package pdftex.def Info: fig/ul_logo.pdf  used on input line 187. on input line
+ 187.
 Package pdftex.def Info: Requested size: 71.13188pt x 29.40918pt on input line 
-185.
+187.
 <fig/LVSN2.png, id=75, 160.6pt x 96.36pt>
 File: fig/LVSN2.png Graphic file (type png)
 <use fig/LVSN2.png>
-Package pdftex.def Info: fig/LVSN2.png  used on input line 185. on input line 1
-85.
+Package pdftex.def Info: fig/LVSN2.png  used on input line 187. on input line 1
+87.
 Package pdftex.def Info: Requested size: 71.13188pt x 42.67935pt on input line 
-185.
+187.
 
 ! Font T1/cmss/m/n/4=ecss0400 at 4.0pt not loadable: Metric (TFM) file not foun
 d.
 <to be read again> 
                    relax 
-l.185 \end{frame}
+l.187 \end{frame}
                  
 I wasn't able to read the size data for this font,
 so I will ignore the font specification.
@@ -1610,22 +1610,22 @@ ul_logo.pdf> <./fig/LVSN2.png>]
 <fig/evolution_ventes_ve.jpg, id=115, 770.88pt x 407.27156pt>
 File: fig/evolution_ventes_ve.jpg Graphic file (type jpg)
 <use fig/evolution_ventes_ve.jpg>
-Package pdftex.def Info: fig/evolution_ventes_ve.jpg  used on input line 246. o
-n input line 246.
+Package pdftex.def Info: fig/evolution_ventes_ve.jpg  used on input line 248. o
+n input line 248.
 Package pdftex.def Info: Requested size: 308.18968pt x 162.81873pt on input lin
-e 246.
+e 248.
  [2
 
  <./fig/evolution_ventes_ve.jpg>]
 <fig/engagements.png, id=146, 377.15906pt x 396.7322pt>
 File: fig/engagements.png Graphic file (type png)
 <use fig/engagements.png>
-Package pdftex.def Info: fig/engagements.png  used on input line 246. on input 
-line 246.
+Package pdftex.def Info: fig/engagements.png  used on input line 248. on input 
+line 248.
 Package pdftex.def Info: Requested size: 188.34047pt x 198.11134pt on input lin
-e 246.
+e 248.
 
-Overfull \vbox (15.8344pt too high) detected at line 246
+Overfull \vbox (15.8344pt too high) detected at line 248
  []
 
 [3
@@ -1634,20 +1634,20 @@ Overfull \vbox (15.8344pt too high) detected at line 246
 <fig/smartgrid.png, id=173, 1027.84pt x 475.7775pt>
 File: fig/smartgrid.png Graphic file (type png)
 <use fig/smartgrid.png>
-Package pdftex.def Info: fig/smartgrid.png  used on input line 261. on input li
-ne 261.
+Package pdftex.def Info: fig/smartgrid.png  used on input line 263. on input li
+ne 263.
 Package pdftex.def Info: Requested size: 308.18968pt x 142.65448pt on input lin
-e 261.
+e 263.
  [4
 
  <./fig/smartgrid.png>]
 <fig/picos.pdf, id=203, pagebox=cropbox, 447.14052pt x 270.49055pt>
 File: fig/picos.pdf Graphic file (type pdf)
 <use fig/picos.pdf>
-Package pdftex.def Info: fig/picos.pdf  used on input line 261. on input line 2
-61.
+Package pdftex.def Info: fig/picos.pdf  used on input line 263. on input line 2
+63.
 Package pdftex.def Info: Requested size: 205.46327pt x 124.29507pt on input lin
-e 261.
+e 263.
  [5
 
  <./fig/picos.pdf>] [6
@@ -1656,36 +1656,36 @@ e 261.
 <fig/elNet.jpg, id=264, 618.75pt x 410.85pt>
 File: fig/elNet.jpg Graphic file (type jpg)
 <use fig/elNet.jpg>
-Package pdftex.def Info: fig/elNet.jpg  used on input line 354. on input line 3
-54.
+Package pdftex.def Info: fig/elNet.jpg  used on input line 356. on input line 3
+56.
 Package pdftex.def Info: Requested size: 162.65623pt x 108.00333pt on input lin
-e 354.
+e 356.
  [7
 
  <./fig/elNet.jpg>]
 File: fig/elNet.jpg Graphic file (type jpg)
 <use fig/elNet.jpg>
-Package pdftex.def Info: fig/elNet.jpg  used on input line 354. on input line 3
-54.
+Package pdftex.def Info: fig/elNet.jpg  used on input line 356. on input line 3
+56.
 Package pdftex.def Info: Requested size: 162.65623pt x 108.00333pt on input lin
-e 354.
+e 356.
 <fig/mb.jpg, id=295, 120.45pt x 80.4606pt>
 File: fig/mb.jpg Graphic file (type jpg)
 <use fig/mb.jpg>
-Package pdftex.def Info: fig/mb.jpg  used on input line 354. on input line 354.
+Package pdftex.def Info: fig/mb.jpg  used on input line 356. on input line 356.
 
 Package pdftex.def Info: Requested size: 162.65623pt x 108.665pt on input line 
-354.
+356.
  [8
 
  <./fig/mb.jpg>]
 <fig/hydroquebec.jpg, id=321, 1006.76125pt x 566.115pt>
 File: fig/hydroquebec.jpg Graphic file (type jpg)
 <use fig/hydroquebec.jpg>
-Package pdftex.def Info: fig/hydroquebec.jpg  used on input line 362. on input 
-line 362.
+Package pdftex.def Info: fig/hydroquebec.jpg  used on input line 364. on input 
+line 364.
 Package pdftex.def Info: Requested size: 342.43532pt x 192.55429pt on input lin
-e 362.
+e 364.
  [9
 
  <./fig/hydroquebec.jpg>] [10
@@ -1694,32 +1694,32 @@ e 362.
 <fig/dollarelectricity.pdf, id=375, pagebox=cropbox, 803.1069pt x 878.972pt>
 File: fig/dollarelectricity.pdf Graphic file (type pdf)
 <use fig/dollarelectricity.pdf>
-Package pdftex.def Info: fig/dollarelectricity.pdf  used on input line 379. on 
-input line 379.
+Package pdftex.def Info: fig/dollarelectricity.pdf  used on input line 381. on 
+input line 381.
 Package pdftex.def Info: Requested size: 85.60883pt x 93.68292pt on input line 
-379.
+381.
 <fig/cadran.pdf, id=376, pagebox=cropbox, 715.1734pt x 715.1734pt>
 File: fig/cadran.pdf Graphic file (type pdf)
 <use fig/cadran.pdf>
-Package pdftex.def Info: fig/cadran.pdf  used on input line 379. on input line 
-379.
+Package pdftex.def Info: fig/cadran.pdf  used on input line 381. on input line 
+381.
 Package pdftex.def Info: Requested size: 85.60883pt x 85.59885pt on input line 
-379.
+381.
 <fig/event-date-and-time-symbol.pdf, id=377, pagebox=cropbox, 460.72125pt x 460
 .72125pt>
 File: fig/event-date-and-time-symbol.pdf Graphic file (type pdf)
 <use fig/event-date-and-time-symbol.pdf>
 Package pdftex.def Info: fig/event-date-and-time-symbol.pdf  used on input line
- 379. on input line 379.
+ 381. on input line 381.
 Package pdftex.def Info: Requested size: 85.60883pt x 85.60468pt on input line 
-379.
+381.
 <fig/partly-cloudy-day.png, id=378, 1204.5pt x 1204.5pt>
 File: fig/partly-cloudy-day.png Graphic file (type png)
 <use fig/partly-cloudy-day.png>
-Package pdftex.def Info: fig/partly-cloudy-day.png  used on input line 379. on 
-input line 379.
+Package pdftex.def Info: fig/partly-cloudy-day.png  used on input line 381. on 
+input line 381.
 Package pdftex.def Info: Requested size: 85.60883pt x 85.59177pt on input line 
-379.
+381.
  [11
 
  <./fig/dollarelectricity.pdf> <./fig/cadran.pdf
@@ -1734,20 +1734,20 @@ PDF inclusion: multiple pdfs with page group included in a single page
 <fig/neuralnet_stylised-1.png, id=420, 702.625pt x 602.25pt>
 File: fig/neuralnet_stylised-1.png Graphic file (type png)
 <use fig/neuralnet_stylised-1.png>
-Package pdftex.def Info: fig/neuralnet_stylised-1.png  used on input line 384. 
-on input line 384.
+Package pdftex.def Info: fig/neuralnet_stylised-1.png  used on input line 386. 
+on input line 386.
 Package pdftex.def Info: Requested size: 239.70367pt x 205.4607pt on input line
- 384.
+ 386.
  [12
 
  <./fig/neuralnet_stylised-1.png>]
 <fig/schema-global.pdf, id=448, pagebox=cropbox, 1204.47108pt x 637.22508pt>
 File: fig/schema-global.pdf Graphic file (type pdf)
 <use fig/schema-global.pdf>
-Package pdftex.def Info: fig/schema-global.pdf  used on input line 390. on inpu
-t line 390.
+Package pdftex.def Info: fig/schema-global.pdf  used on input line 393. on inpu
+t line 393.
 Package pdftex.def Info: Requested size: 342.43532pt x 181.16376pt on input lin
-e 390.
+e 393.
  [13
 
  <./fig/schema-global.pdf>] [14
@@ -1758,30 +1758,30 @@ e 390.
 <fig/figUnivAnlFr1.pdf, id=537, pagebox=cropbox, 578.64178pt x 144.22884pt>
 File: fig/figUnivAnlFr1.pdf Graphic file (type pdf)
 <use fig/figUnivAnlFr1.pdf>
-Package pdftex.def Info: fig/figUnivAnlFr1.pdf  used on input line 419. on inpu
-t line 419.
+Package pdftex.def Info: fig/figUnivAnlFr1.pdf  used on input line 423. on inpu
+t line 423.
 Package pdftex.def Info: Requested size: 267.09912pt x 66.57713pt on input line
- 419.
+ 423.
  [16
 
  <./fig/figUnivAnlFr1.pdf>]
 <fig/figUnivAnlFr2.pdf, id=581, pagebox=cropbox, 585.6078pt x 270.70134pt>
 File: fig/figUnivAnlFr2.pdf Graphic file (type pdf)
 <use fig/figUnivAnlFr2.pdf>
-Package pdftex.def Info: fig/figUnivAnlFr2.pdf  used on input line 419. on inpu
-t line 419.
+Package pdftex.def Info: fig/figUnivAnlFr2.pdf  used on input line 423. on inpu
+t line 423.
 Package pdftex.def Info: Requested size: 267.09912pt x 123.47083pt on input lin
-e 419.
+e 423.
  [17
 
  <./fig/figUnivAnlFr2.pdf>]
 <fig/figUnivAnlFr3.pdf, id=623, pagebox=cropbox, 580.57901pt x 393.36961pt>
 File: fig/figUnivAnlFr3.pdf Graphic file (type pdf)
 <use fig/figUnivAnlFr3.pdf>
-Package pdftex.def Info: fig/figUnivAnlFr3.pdf  used on input line 419. on inpu
-t line 419.
+Package pdftex.def Info: fig/figUnivAnlFr3.pdf  used on input line 423. on inpu
+t line 423.
 Package pdftex.def Info: Requested size: 267.09912pt x 180.97623pt on input lin
-e 419.
+e 423.
  [18
 
  <./fig/figUnivAnlFr3.pdf>] [19
@@ -1796,10 +1796,10 @@ e 419.
 <fig/figPCAvarExplainedFr.png, id=781, 1425.325pt x 709.65125pt>
 File: fig/figPCAvarExplainedFr.png Graphic file (type png)
 <use fig/figPCAvarExplainedFr.png>
-Package pdftex.def Info: fig/figPCAvarExplainedFr.png  used on input line 498. 
-on input line 498.
+Package pdftex.def Info: fig/figPCAvarExplainedFr.png  used on input line 502. 
+on input line 502.
 Package pdftex.def Info: Requested size: 339.01283pt x 168.78214pt on input lin
-e 498.
+e 502.
  [23
 
  <./fig/figPCAvarExplainedFr.png (PNG copy)>]
@@ -1808,9 +1808,9 @@ e 498.
 File: fig/figClusteringTrainingFr_222_summer1.pdf Graphic file (type pdf)
 <use fig/figClusteringTrainingFr_222_summer1.pdf>
 Package pdftex.def Info: fig/figClusteringTrainingFr_222_summer1.pdf  used on i
-nput line 511. on input line 511.
+nput line 515. on input line 515.
 Package pdftex.def Info: Requested size: 308.18968pt x 190.53526pt on input lin
-e 511.
+e 515.
  [24
 
  <./fig/figClusteringTrainingFr_222_summer1.pdf>]
@@ -1819,9 +1819,9 @@ e 511.
 File: fig/figStratEstimFr_222_summer1.pdf Graphic file (type pdf)
 <use fig/figStratEstimFr_222_summer1.pdf>
 Package pdftex.def Info: fig/figStratEstimFr_222_summer1.pdf  used on input lin
-e 511. on input line 511.
+e 515. on input line 515.
 Package pdftex.def Info: Requested size: 308.18968pt x 190.53526pt on input lin
-e 511.
+e 515.
  [25
 
  <./fig/figStratEstimFr_222_summer1.pdf>]
@@ -1830,9 +1830,9 @@ e 511.
 File: fig/figDiff_ANN_Inp_state_year_2003.pdf Graphic file (type pdf)
 <use fig/figDiff_ANN_Inp_state_year_2003.pdf>
 Package pdftex.def Info: fig/figDiff_ANN_Inp_state_year_2003.pdf  used on input
- line 520. on input line 520.
+ line 524. on input line 524.
 Package pdftex.def Info: Requested size: 239.70367pt x 170.30952pt on input lin
-e 520.
+e 524.
  [26
 
  <./fig/figDiff_ANN_Inp_state_year_2003.pdf>]
@@ -1841,9 +1841,9 @@ e 520.
 File: fig/figDiff_SVR_Inp_state_year_2003.pdf Graphic file (type pdf)
 <use fig/figDiff_SVR_Inp_state_year_2003.pdf>
 Package pdftex.def Info: fig/figDiff_SVR_Inp_state_year_2003.pdf  used on input
- line 529. on input line 529.
+ line 533. on input line 533.
 Package pdftex.def Info: Requested size: 239.70367pt x 170.30952pt on input lin
-e 529.
+e 533.
  [27
 
  <./fig/figDiff_SVR_Inp_state_year_2003.pdf>]
@@ -1853,40 +1853,40 @@ e 529.
 <fig/obj01.pdf, id=978, pagebox=cropbox, 310.15875pt x 168.64003pt>
 File: fig/obj01.pdf Graphic file (type pdf)
 <use fig/obj01.pdf>
-Package pdftex.def Info: fig/obj01.pdf  used on input line 551. on input line 5
-51.
+Package pdftex.def Info: fig/obj01.pdf  used on input line 555. on input line 5
+55.
 Package pdftex.def Info: Requested size: 308.18968pt x 167.56914pt on input lin
-e 551.
+e 555.
  [29
 
  <./fig/obj01.pdf>]
 <fig/obj02.pdf, id=1020, pagebox=cropbox, 310.15875pt x 168.55972pt>
 File: fig/obj02.pdf Graphic file (type pdf)
 <use fig/obj02.pdf>
-Package pdftex.def Info: fig/obj02.pdf  used on input line 551. on input line 5
-51.
+Package pdftex.def Info: fig/obj02.pdf  used on input line 555. on input line 5
+55.
 Package pdftex.def Info: Requested size: 308.18968pt x 167.48933pt on input lin
-e 551.
+e 555.
  [30
 
  <./fig/obj02.pdf>]
 <fig/obj03.pdf, id=1058, pagebox=cropbox, 313.17pt x 171.64125pt>
 File: fig/obj03.pdf Graphic file (type pdf)
 <use fig/obj03.pdf>
-Package pdftex.def Info: fig/obj03.pdf  used on input line 551. on input line 5
-51.
+Package pdftex.def Info: fig/obj03.pdf  used on input line 555. on input line 5
+55.
 Package pdftex.def Info: Requested size: 308.18968pt x 168.917pt on input line 
-551.
+555.
  [31
 
  <./fig/obj03.pdf>]
 <fig/PriceDist_201Fr.pdf, id=1092, pagebox=cropbox, 599.82094pt x 358.07776pt>
 File: fig/PriceDist_201Fr.pdf Graphic file (type pdf)
 <use fig/PriceDist_201Fr.pdf>
-Package pdftex.def Info: fig/PriceDist_201Fr.pdf  used on input line 562. on in
-put line 562.
+Package pdftex.def Info: fig/PriceDist_201Fr.pdf  used on input line 566. on in
+put line 566.
 Package pdftex.def Info: Requested size: 342.43532pt x 204.42334pt on input lin
-e 562.
+e 566.
 
 [32
 
@@ -1901,10 +1901,10 @@ e 562.
 pt>
 File: fig/figDinamycProgram02.pdf Graphic file (type pdf)
 <use fig/figDinamycProgram02.pdf>
-Package pdftex.def Info: fig/figDinamycProgram02.pdf  used on input line 638. o
-n input line 638.
+Package pdftex.def Info: fig/figDinamycProgram02.pdf  used on input line 642. o
+n input line 642.
 Package pdftex.def Info: Requested size: 239.70367pt x 179.87488pt on input lin
-e 638.
+e 642.
  [36
 
  <./fig/figDinamycProgram02.pdf>]
@@ -1913,11 +1913,11 @@ e 638.
 File: fig/figresDeltaWithoutGasBWcolor02-Sout2.pdf Graphic file (type pdf)
 <use fig/figresDeltaWithoutGasBWcolor02-Sout2.pdf>
 Package pdftex.def Info: fig/figresDeltaWithoutGasBWcolor02-Sout2.pdf  used on 
-input line 649. on input line 649.
+input line 653. on input line 653.
 Package pdftex.def Info: Requested size: 308.18968pt x 220.63684pt on input lin
-e 649.
+e 653.
 
-Overfull \vbox (4.17993pt too high) detected at line 649
+Overfull \vbox (4.17993pt too high) detected at line 653
  []
 
 [37
@@ -1934,12 +1934,12 @@ Overfull \vbox (4.17993pt too high) detected at line 649
 <fig/figtbrFr.pdf, id=1398, pagebox=cropbox, 568.09236pt x 416.33542pt>
 File: fig/figtbrFr.pdf Graphic file (type pdf)
 <use fig/figtbrFr.pdf>
-Package pdftex.def Info: fig/figtbrFr.pdf  used on input line 910. on input lin
-e 910.
+Package pdftex.def Info: fig/figtbrFr.pdf  used on input line 914. on input lin
+e 914.
 Package pdftex.def Info: Requested size: 308.18968pt x 225.87233pt on input lin
-e 910.
+e 914.
 
-Overfull \vbox (9.41542pt too high) detected at line 910
+Overfull \vbox (9.41542pt too high) detected at line 914
  []
 
 [42
@@ -1948,12 +1948,12 @@ Overfull \vbox (9.41542pt too high) detected at line 910
 <fig/figknn.pdf, id=1444, pagebox=cropbox, 570.13pt x 414.54875pt>
 File: fig/figknn.pdf Graphic file (type pdf)
 <use fig/figknn.pdf>
-Package pdftex.def Info: fig/figknn.pdf  used on input line 921. on input line 
-921.
+Package pdftex.def Info: fig/figknn.pdf  used on input line 925. on input line 
+925.
 Package pdftex.def Info: Requested size: 308.18968pt x 224.08702pt on input lin
-e 921.
+e 925.
 
-Overfull \vbox (7.63011pt too high) detected at line 921
+Overfull \vbox (7.63011pt too high) detected at line 925
  []
 
 [43
@@ -1966,12 +1966,12 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 File: fig/figResAnalysis01.pdf Graphic file (type pdf)
 <use fig/figResAnalysis01.pdf>
-Package pdftex.def Info: fig/figResAnalysis01.pdf  used on input line 946. on i
-nput line 946.
+Package pdftex.def Info: fig/figResAnalysis01.pdf  used on input line 950. on i
+nput line 950.
 Package pdftex.def Info: Requested size: 342.43532pt x 229.06671pt on input lin
-e 946.
+e 950.
 
-Overfull \vbox (40.3105pt too high) detected at line 946
+Overfull \vbox (40.3105pt too high) detected at line 950
  []
 
 [44
@@ -1984,12 +1984,12 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 File: fig/figResAnalysis02.pdf Graphic file (type pdf)
 <use fig/figResAnalysis02.pdf>
-Package pdftex.def Info: fig/figResAnalysis02.pdf  used on input line 946. on i
-nput line 946.
+Package pdftex.def Info: fig/figResAnalysis02.pdf  used on input line 950. on i
+nput line 950.
 Package pdftex.def Info: Requested size: 342.43532pt x 229.06671pt on input lin
-e 946.
+e 950.
 
-Overfull \vbox (40.3105pt too high) detected at line 946
+Overfull \vbox (40.3105pt too high) detected at line 950
  []
 
 [45
@@ -2002,136 +2002,128 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 File: fig/figResAnalysis03.pdf Graphic file (type pdf)
 <use fig/figResAnalysis03.pdf>
-Package pdftex.def Info: fig/figResAnalysis03.pdf  used on input line 946. on i
-nput line 946.
+Package pdftex.def Info: fig/figResAnalysis03.pdf  used on input line 950. on i
+nput line 950.
 Package pdftex.def Info: Requested size: 342.43532pt x 229.13678pt on input lin
-e 946.
+e 950.
 
-Overfull \vbox (30.8606pt too high) detected at line 946
+Overfull \vbox (30.8606pt too high) detected at line 950
  []
 
 [46
 
  <./fig/figResAnalysis03.pdf>]
-<fig/figCostMLFr01.pdf, id=1613, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr01.pdf Graphic file (type pdf)
-<use fig/figCostMLFr01.pdf>
-Package pdftex.def Info: fig/figCostMLFr01.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+<fig/figCostMLwithoutKmeansFr01.pdf, id=1613, pagebox=cropbox, 1158.75917pt x 7
+26.36371pt>
+File: fig/figCostMLwithoutKmeansFr01.pdf Graphic file (type pdf)
+<use fig/figCostMLwithoutKmeansFr01.pdf>
+Package pdftex.def Info: fig/figCostMLwithoutKmeansFr01.pdf  used on input line
+ 968. on input line 968.
+Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
+e 968.
 
-Overfull \vbox (15.1954pt too high) detected at line 965
+Overfull \vbox (25.89606pt too high) detected at line 968
  []
 
 [47
 
- <./fig/figCostMLFr01.pdf>]
-<fig/figCostMLFr02.pdf, id=1657, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr02.pdf Graphic file (type pdf)
-<use fig/figCostMLFr02.pdf>
-Package pdftex.def Info: fig/figCostMLFr02.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+ <./fig/figCostMLwithoutKmeansFr01.pdf>]
+<fig/figCostMLwithoutKmeansFr02.pdf, id=1657, pagebox=cropbox, 1158.75917pt x 7
+26.36371pt>
+File: fig/figCostMLwithoutKmeansFr02.pdf Graphic file (type pdf)
+<use fig/figCostMLwithoutKmeansFr02.pdf>
+Package pdftex.def Info: fig/figCostMLwithoutKmeansFr02.pdf  used on input line
+ 968. on input line 968.
+Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
+e 968.
 
-Overfull \vbox (15.1954pt too high) detected at line 965
+Overfull \vbox (25.89606pt too high) detected at line 968
  []
 
 [48
 
- <./fig/figCostMLFr02.pdf>]
-<fig/figCostMLFr03.pdf, id=1702, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr03.pdf Graphic file (type pdf)
-<use fig/figCostMLFr03.pdf>
-Package pdftex.def Info: fig/figCostMLFr03.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+ <./fig/figCostMLwithoutKmeansFr02.pdf>]
+<fig/figCostMLwithoutKmeansFr03.pdf, id=1702, pagebox=cropbox, 1158.75917pt x 7
+26.36371pt>
+File: fig/figCostMLwithoutKmeansFr03.pdf Graphic file (type pdf)
+<use fig/figCostMLwithoutKmeansFr03.pdf>
+Package pdftex.def Info: fig/figCostMLwithoutKmeansFr03.pdf  used on input line
+ 968. on input line 968.
+Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
+e 968.
 
-Overfull \vbox (15.1954pt too high) detected at line 965
+Overfull \vbox (25.89606pt too high) detected at line 968
  []
 
 [49
 
- <./fig/figCostMLFr03.pdf>]
-<fig/figCostMLFr04.pdf, id=1747, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr04.pdf Graphic file (type pdf)
-<use fig/figCostMLFr04.pdf>
-Package pdftex.def Info: fig/figCostMLFr04.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+ <./fig/figCostMLwithoutKmeansFr03.pdf>]
+<fig/figCostMLwithoutKmeansFr04.pdf, id=1747, pagebox=cropbox, 1158.75917pt x 7
+26.36371pt>
+File: fig/figCostMLwithoutKmeansFr04.pdf Graphic file (type pdf)
+<use fig/figCostMLwithoutKmeansFr04.pdf>
+Package pdftex.def Info: fig/figCostMLwithoutKmeansFr04.pdf  used on input line
+ 968. on input line 968.
+Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
+e 968.
 
-Overfull \vbox (15.1954pt too high) detected at line 965
+Overfull \vbox (25.89606pt too high) detected at line 968
  []
 
 [50
 
- <./fig/figCostMLFr04.pdf>]
-<fig/figCostMLFr05.pdf, id=1795, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr05.pdf Graphic file (type pdf)
-<use fig/figCostMLFr05.pdf>
-Package pdftex.def Info: fig/figCostMLFr05.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+ <./fig/figCostMLwithoutKmeansFr04.pdf>]
+<fig/figCostMLwithoutKmeansFr05.pdf, id=1795, pagebox=cropbox, 1158.75917pt x 7
+26.36371pt>
+File: fig/figCostMLwithoutKmeansFr05.pdf Graphic file (type pdf)
+<use fig/figCostMLwithoutKmeansFr05.pdf>
+Package pdftex.def Info: fig/figCostMLwithoutKmeansFr05.pdf  used on input line
+ 968. on input line 968.
+Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
+e 968.
 
-Overfull \vbox (15.1954pt too high) detected at line 965
+Overfull \vbox (25.89606pt too high) detected at line 968
  []
 
 [51
 
- <./fig/figCostMLFr05.pdf>]
-<fig/figCostMLFr06.pdf, id=1842, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr06.pdf Graphic file (type pdf)
-<use fig/figCostMLFr06.pdf>
-Package pdftex.def Info: fig/figCostMLFr06.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+ <./fig/figCostMLwithoutKmeansFr05.pdf>]
+<fig/figCostMLwithoutKmeansFr06.pdf, id=1841, pagebox=cropbox, 1158.75917pt x 7
+26.36371pt>
+File: fig/figCostMLwithoutKmeansFr06.pdf Graphic file (type pdf)
+<use fig/figCostMLwithoutKmeansFr06.pdf>
+Package pdftex.def Info: fig/figCostMLwithoutKmeansFr06.pdf  used on input line
+ 968. on input line 968.
+Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
+e 968.
 
-Overfull \vbox (15.1954pt too high) detected at line 965
+Overfull \vbox (16.37608pt too high) detected at line 968
  []
 
 [52
 
- <./fig/figCostMLFr06.pdf>]
-<fig/figCostMLFr07.pdf, id=1888, pagebox=cropbox, 1284.6896pt x 765.13858pt>
-File: fig/figCostMLFr07.pdf Graphic file (type pdf)
-<use fig/figCostMLFr07.pdf>
-Package pdftex.def Info: fig/figCostMLFr07.pdf  used on input line 965. on inpu
-t line 965.
-Package pdftex.def Info: Requested size: 342.43532pt x 203.95161pt on input lin
-e 965.
+ <./fig/figCostMLwithoutKmeansFr06.pdf>]
 
-Overfull \vbox (5.67543pt too high) detected at line 965
- []
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
+(Font)              using `T1/cmss/m/n' instead on input line 988.
 
 [53
 
- <./fig/figCostMLFr07.pdf>]
-
-LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 980.
-
-[54
+] [54
 
 ] [55
 
-] [56
-
 ]
-<fig/quest.jpg, id=2018, 770.88pt x 545.03625pt>
+<fig/quest.jpg, id=1970, 770.88pt x 545.03625pt>
 File: fig/quest.jpg Graphic file (type jpg)
 <use fig/quest.jpg>
-Package pdftex.def Info: fig/quest.jpg  used on input line 1018. on input line 
-1018.
+Package pdftex.def Info: fig/quest.jpg  used on input line 1028. on input line 
+1028.
 Package pdftex.def Info: Requested size: 364.19536pt x 257.49773pt on input lin
-e 1018.
- [57
+e 1028.
+ [56
 
- <./fig/quest.jpg>] (./KarolLopez_presentation.bbl) [58
+ <./fig/quest.jpg>] (./KarolLopez_presentation.bbl) [57
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -2143,12 +2135,12 @@ e 1018.
 \tf@snm=\write8
 \openout8 = `KarolLopez_presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1027.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1027.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1037.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1037.
 
 (./KarolLopez_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1027.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1027.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1037.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1037.
 
 Package rerunfilecheck Info: File `KarolLopez_presentation.out' has not changed
 .
@@ -2160,13 +2152,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 176 ({)
+### simple group (level 1) entered at line 178 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28761 strings out of 492990
- 554641 string characters out of 6135004
+ 28754 strings out of 492990
+ 554868 string characters out of 6135004
  611245 words of memory out of 5000000
- 31549 multiletter control sequences out of 15000+600000
+ 31545 multiletter control sequences out of 15000+600000
  556635 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,79p,10427b,1225s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2189,10 +2181,10 @@ per/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on KarolLopez_presentation.pdf (58 pages, 8405034 bytes).
+Output written on KarolLopez_presentation.pdf (57 pages, 8388018 bytes).
 PDF statistics:
- 2183 PDF objects out of 2487 (max. 8388607)
- 1896 compressed objects within 19 object streams
- 142 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2136 PDF objects out of 2487 (max. 8388607)
+ 1856 compressed objects within 19 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 393 words of extra memory for PDF output out of 10000 (max. 10000000)
 

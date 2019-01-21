@@ -30,8 +30,10 @@
 % algorithms
 \usepackage{algorithmic}
 \usepackage{algorithm}
+% \usepackage{enumitem}
 % mathematical
-% 
+%
+% \usepackage{natbib}
 \usepackage{bibentry}
 \nobibliography*
 % 
@@ -385,11 +387,13 @@
 
 
 
-\begin{frame}{Méthodologie générale}
+\begin{frame}
+\frametitle{Méthodologie générale}
 \includegraphics[width=\linewidth]{schema-global}
 \end{frame}
 
-\begin{frame}{Méthodologie générale}
+\begin{frame}
+\frametitle{Méthodologie générale}
 \begin{enumerate}
 	\item Obtenir et analyser les données pertinentes
 	\item Déterminer les décisions optimales correspondantes
@@ -952,13 +956,12 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{figure}
 \begin{center}
 \begin{overlayarea}{\linewidth}{2.8in}
-\includegraphics<1 | handout:0>[width=\linewidth]{figCostMLFr01.pdf}
-\includegraphics<2 | handout:0>[width=\linewidth]{figCostMLFr02.pdf}
-\includegraphics<3 | handout:0>[width=\linewidth]{figCostMLFr03.pdf}
-\includegraphics<4 | handout:0>[width=\linewidth]{figCostMLFr04.pdf}
-\includegraphics<5 | handout:0>[width=\linewidth]{figCostMLFr05.pdf}
-\includegraphics<6 | handout:0>[width=\linewidth]{figCostMLFr06.pdf}
-\includegraphics<7 | handout:0>[width=\linewidth]{figCostMLFr07.pdf}
+\includegraphics<1 | handout:0>[width=\linewidth]{figCostMLwithoutKmeansFr01.pdf}
+\includegraphics<2 | handout:0>[width=\linewidth]{figCostMLwithoutKmeansFr02.pdf}
+\includegraphics<3 | handout:0>[width=\linewidth]{figCostMLwithoutKmeansFr03.pdf}
+\includegraphics<4 | handout:0>[width=\linewidth]{figCostMLwithoutKmeansFr04.pdf}
+\includegraphics<5 | handout:0>[width=\linewidth]{figCostMLwithoutKmeansFr05.pdf}
+\includegraphics<6 | handout:0>[width=\linewidth]{figCostMLwithoutKmeansFr06.pdf}
 \end{overlayarea}
 \end{center}
 \end{figure}
@@ -969,39 +972,46 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \section{Contributions}
 \begin{frame}
 \frametitle{Contributions}
-Modèle de recharge optimale des véhicules électriques pour générer une série de décisions en utilisant la connaissance a priori du prix de l’électricité et de l’énergie utilisée, en utilisant la programmation dynamique comme méthode d’optimisation.
-
-Article de conférence
-
 \begin{itemize}
-   \item \bibentry{lopez2018b}.   
-\end{itemize} 
-
+\item 
+Modèle de recharge optimale des véhicules électriques pour générer une série de décisions en utilisant la connaissance a priori du prix de l’électricité et de l’énergie utilisée.
+\end{itemize}
+% 
+% \begin{tabular}{p{.10\textwidth} p{.85\textwidth}}
+%                 &   \hangindent=0.6cm \bibentry{lopez2018b}.\\
+% \end{tabular}
+\bibentry{lopez2018b}
+% 
+% \begin{description}[style=nextline,leftmargin=0pt] 
+%  \item[Article de conférence]  \bibentry{lopez2018b}
+% \end{description}
 \end{frame}
 
 \begin{frame}
-\frametitle{Contributions } 
-Méthode de sélection des données pertinentes utilisant la stratification de données pouvant réduire significativement le temps requis pour entraîner les modèles de prévision avec des résultats proches de ceux
-obtenus en utilisant l’ensemble de données complet.
-
-Article de journal
+\frametitle{Contributions}
 \begin{itemize}
-    \item \bibentry{lopez2015}.
+\item 
+Méthode de sélection des données pertinentes utilisant la stratification de données pouvant réduire significativement le temps requis pour entraîner les modèles de prévision avec des résultats proches de ceux obtenus en utilisant l’ensemble de données complet.
 \end{itemize}
+% 
+% \begin{description}[style=nextline,leftmargin=0pt] 
+%  \item[Article de journal]  \bibentry{lopez2015}
+% \end{description}
+\bibentry{lopez2015}
 \end{frame}
 
 
 \begin{frame}
 \frametitle{Contributions}
 
-Modèle de classification en ligne qui permet de déterminer s’il faut charger ou non le véhicule à l’aide de modèles d’apprentissage automatique qui peuvent générer, en temps réel, une décision de recharge quasi-optimale sans
-tenir compte d’une connaissance de l’information future.
-
-Article de journal
 \begin{itemize}
-\item \bibentry{lopez2018}.
-
+\item Modèle de classification en ligne qui permet de déterminer s’il faut charger ou non le véhicule à l’aide de modèles d’apprentissage automatique qui peuvent générer, en temps réel, une décision de recharge quasi-optimale.
 \end{itemize}
+
+\bibentry{lopez2018}
+% \begin{description}[style=nextline,leftmargin=0pt] 
+% \item[Article de journal]  \bibentry{lopez2018}
+% \end{description}
 \end{frame}
 
 
