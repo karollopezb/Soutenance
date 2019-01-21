@@ -69,59 +69,36 @@
 \headcommand {\beamer@subsectionentry {0}{3}{3}{38}{R\IeC {\'e}sultats obtenus avec la programmation dynamique}}\headcommand {\beamer@subsectionpages {29}{37}}
 \headcommand {\slideentry {3}{3}{1}{38/38}{R\IeC {\'e}sultats obtenus avec la programmation dynamique}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\sectionentry {4}{Syst\IeC {\`e}me d'information}{39}{Syst\IeC {\`e}me d'information}{0}}
+\headcommand {\sectionentry {4}{Recharge intelligente de VE}{39}{Recharge intelligente de VE}{0}}
 \headcommand {\beamer@sectionpages {24}{38}}
 \headcommand {\beamer@subsectionpages {38}{38}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{39}{Analyse univari\IeC {\'e}e des donn\IeC {\'e}es}}\headcommand {\beamer@subsectionpages {39}{38}}
-\headcommand {\slideentry {4}{1}{1}{39/41}{Analyse univari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {39}{41}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{42}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}}\headcommand {\beamer@subsectionpages {39}{41}}
-\headcommand {\slideentry {4}{2}{1}{42/43}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {42}{43}}
-\headcommand {\slideentry {4}{2}{2}{44/45}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {44}{45}}
-\headcommand {\slideentry {4}{2}{3}{46/46}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\sectionentry {5}{Stratification des donn\IeC {\'e}es}{47}{Stratification des donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@sectionpages {39}{46}}
-\headcommand {\beamer@subsectionpages {42}{46}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{47}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}}\headcommand {\beamer@subsectionpages {47}{46}}
-\headcommand {\slideentry {5}{1}{1}{47/48}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {47}{48}}
-\headcommand {\slideentry {5}{1}{2}{49/49}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {5}{1}{3}{50/50}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\sectionentry {6}{Recharge intelligente de VE}{51}{Recharge intelligente de VE}{0}}
-\headcommand {\beamer@sectionpages {47}{50}}
-\headcommand {\beamer@subsectionpages {47}{50}}
-\headcommand {\beamer@subsectionentry {0}{6}{1}{51}{M\IeC {\'e}thodologie}}\headcommand {\beamer@subsectionpages {51}{50}}
-\headcommand {\slideentry {6}{1}{1}{51/51}{M\IeC {\'e}thodologie}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {6}{1}{2}{52/52}{M\IeC {\'e}thodologie}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {6}{1}{3}{53/53}{M\IeC {\'e}thodologie}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {6}{1}{4}{54/54}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{39}{M\IeC {\'e}thodologie}}\headcommand {\beamer@subsectionpages {39}{38}}
+\headcommand {\slideentry {4}{1}{1}{39/39}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {4}{1}{2}{40/40}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {4}{1}{3}{41/41}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {4}{1}{4}{42/42}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {4}{1}{5}{43/43}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{44}{Analyse des r\IeC {\'e}sultats}}\headcommand {\beamer@subsectionpages {39}{43}}
+\headcommand {\slideentry {4}{2}{1}{44/46}{Analyse des r\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {44}{46}}
+\headcommand {\slideentry {4}{2}{2}{47/53}{Analyse des r\IeC {\'e}sultats}{0}}
+\headcommand {\beamer@framepages {47}{53}}
+\headcommand {\sectionentry {5}{Contributions}{54}{Contributions}{0}}
+\headcommand {\beamer@sectionpages {39}{53}}
+\headcommand {\beamer@subsectionpages {44}{53}}
+\headcommand {\slideentry {5}{0}{1}{54/54}{}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {6}{1}{5}{55/55}{M\IeC {\'e}thodologie}{0}}
+\headcommand {\slideentry {5}{0}{2}{55/55}{}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@subsectionentry {0}{6}{2}{56}{Analyse des r\IeC {\'e}sultats}}\headcommand {\beamer@subsectionpages {51}{55}}
-\headcommand {\slideentry {6}{2}{1}{56/58}{Analyse des r\IeC {\'e}sultats}{0}}
-\headcommand {\beamer@framepages {56}{58}}
-\headcommand {\slideentry {6}{2}{2}{59/65}{Analyse des r\IeC {\'e}sultats}{0}}
-\headcommand {\beamer@framepages {59}{65}}
-\headcommand {\sectionentry {7}{Contributions}{66}{Contributions}{0}}
-\headcommand {\beamer@sectionpages {51}{65}}
-\headcommand {\beamer@subsectionpages {56}{65}}
-\headcommand {\slideentry {7}{0}{1}{66/66}{}{0}}
-\headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {7}{0}{2}{67/67}{}{0}}
-\headcommand {\beamer@framepages {67}{67}}
-\headcommand {\slideentry {7}{0}{3}{68/68}{}{0}}
-\headcommand {\beamer@framepages {68}{68}}
-\headcommand {\beamer@partpages {1}{68}}
-\headcommand {\beamer@subsectionpages {66}{68}}
-\headcommand {\beamer@sectionpages {66}{68}}
-\headcommand {\beamer@documentpages {68}}
-\headcommand {\def \inserttotalframenumber {44}}
+\headcommand {\slideentry {5}{0}{3}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@partpages {1}{57}}
+\headcommand {\beamer@subsectionpages {54}{57}}
+\headcommand {\beamer@sectionpages {54}{57}}
+\headcommand {\beamer@documentpages {57}}
+\headcommand {\def \inserttotalframenumber {37}}

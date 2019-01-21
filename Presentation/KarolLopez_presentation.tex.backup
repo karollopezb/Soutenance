@@ -31,12 +31,18 @@
 \usepackage{algorithmic}
 \usepackage{algorithm}
 % mathematical
+% 
+\usepackage{bibentry}
+\nobibliography*
+% 
+
 \usepackage{amssymb}
 \usepackage{pifont}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{animate}
 \usepackage{hyperref}
+
 
 \graphicspath{{fig}}
 
@@ -222,8 +228,25 @@
 % \end{center}
 % \end{frame}
 
+
 \begin{frame}
-\frametitle{Intégration des Véhicules Electriques dans le réseau électrique}
+\frametitle{Véhicules électriques : portrait de la situation}
+\vspace{-1.5em}
+\begin{center}
+\begin{figure}
+\includegraphics<1>[width=0.9\linewidth]{evolution_ventes_ve.jpg}
+\caption*{\only<1>{\tiny{Source: Bloomberg, 2017}}}
+
+\includegraphics<2>[width=0.55\linewidth]{engagements.png}
+\caption*{\only<2>{\tiny{Source: Radio-Canada, 2018}}}
+\end{figure}
+% \tiny{Source: Inauguration of the European Interoperability Centre for Electric Vehicles and Smart Grids}
+% \tiny{Source: Report on the Economic and Environmental Impacts of Large-Scale Introduction on EV/PHEV. Shakoor and Aunedi, 2011}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Intégrer les véhicules électriques dans le réseau électrique}
 \begin{center}
 \begin{figure}
 \includegraphics<1>[width=0.9\linewidth]{smartgrid.png}
@@ -243,11 +266,55 @@
 % 
 \begin{frame}
 % %  http://www.intechopen.com/books/electric-vehicles-the-benefits-and-barriers/integration-of-electric-vehicles-in-the-electric-utility-systems
-\frametitle{Comment faciliter la recharge intelligente de VE ?}
+\frametitle{Stratégies pour la gestion de la demande}
+
+\begin{tabular}{l|cc}
+ 			& \textbf{Orienté grille} & \textbf{Orienté utilisateur} \\ \hline
+\emph{Objectifs} 	& 
+\begin{minipage}{0.38\linewidth}\vspace{1em}
+	\begin{itemize}
+		\item Réduire la demande pic en puissance
+		\item Réduire les coûts de production
+	\end{itemize}\vspace{1em}
+\end{minipage} 
+& \begin{minipage}{0.38\linewidth}\vspace{1em}
+	\begin{itemize}
+		\item Assurer la disponibilité du véhicule
+		\item Réduire le coût d'opération
+	\end{itemize}\vspace{1em}
+\end{minipage}  \\ \hline
+\emph{Requis} & 
+\begin{minipage}{0.38\linewidth}\vspace{1em}
+	\begin{itemize}
+		\item Données de consommation globales
+		\item Infrastructure de communication complexe
+	\end{itemize}
+\end{minipage} 
+& \begin{minipage}{0.38\linewidth}\vspace{1em}
+	\begin{itemize}
+		\item Données spécifiques à l'utilisateur
+		\item Infrastructure de communication minimale
+	\end{itemize}
+\end{minipage}  \\
+\end{tabular}
+%
+%\begin{columns}
+%\begin{column}{0.5\linewidth}
+%\begin{center}
+%\textbf{Orienté grille}
+%\end{center}
+%\end{column}
+%\begin{column}{0.5\linewidth}
+%\begin{center}
+%\textbf{Orienté utilisateur}
+%\end{center}
+%\end{column}
+%\end{columns}
+
 % \begin{center}
-\begin{figure}
-\includegraphics[width=\linewidth]{figConcMapFr.pdf}
-\end{figure}
+%\begin{figure}
+%\includegraphics[width=\linewidth]{figConcMapFr.pdf}
+%\end{figure}
 % % \includegraphics<1>[width=0.6\linewidth]{previsiondemande.jpg}
 % % \includegraphics[width=0.8\linewidth]{picos.pdf}\\
 % \includegraphics[width=0.8\linewidth]{fig/picos.pdf}\\
@@ -294,30 +361,181 @@
 \end{center}
 \end{frame}
 
-
-
-
-\subsection{Méthodologie}
- 
-
 \begin{frame}
 \begin{center}
-\frametitle{Méthodologie}
-\begin{overlayarea}{\linewidth}{2.8in}
-% \includegraphics<1 | handout:0>[width=\linewidth]{meth01.pdf}
-% \includegraphics<2 | handout:0>[width=\linewidth]{meth02.pdf}
-% \includegraphics<3 | handout:0>[width=\linewidth]{meth03.pdf}
-% \includegraphics<4>[width=\linewidth]{meth04.pdf}
-\includegraphics<1 | handout:0>[width=\linewidth]{meth01.pdf}
-\includegraphics<2 | handout:0>[width=\linewidth]{meth02.pdf}
-\includegraphics<3 | handout:0>[width=\linewidth]{meth03.pdf}
-\includegraphics<4>[width=\linewidth]{meth04.pdf}
-\end{overlayarea}
+\huge \textbf{Optimiser la recharge de véhicules électriques avec une perspective utilisateur}
 \end{center}
 \end{frame}
 
 
+\begin{frame}{Données disponibles}
+\begin{center}
+\includegraphics[width=0.25\linewidth]{dollarelectricity}\hspace{0.2\linewidth}
+\includegraphics[width=0.25\linewidth]{cadran}
 
+\includegraphics[width=0.25\linewidth]{event-date-and-time-symbol}\hspace{0.2\linewidth}
+\includegraphics[width=0.25\linewidth]{partly-cloudy-day}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Approches d'apprentissage disponibles}
+\includegraphics[width=0.7\linewidth]{neuralnet_stylised-1}
+\end{frame}
+
+
+
+\begin{frame}{Méthodologie générale}
+\includegraphics[width=\linewidth]{schema-global}
+\end{frame}
+
+\begin{frame}{Méthodologie générale}
+\begin{enumerate}
+	\item Obtenir et analyser les données pertinentes
+	\item Déterminer les décisions optimales correspondantes
+	\item Proposer une méthode d'apprentissage capable d'approcher les décisions optimales
+\end{enumerate}
+\end{frame}
+
+
+\section{Analyse des données}
+
+\begin{frame}
+\begin{center}
+\huge \textbf{Obtenir et analyser les données pertinentes}
+\end{center}
+\end{frame}
+
+\subsection{Analyse univariée des données}
+\begin{frame}
+\frametitle{Analyses univariées des données} 
+\begin{overlayarea}{\linewidth}{2.8in}
+\begin{center} 
+\includegraphics<1 | handout:0>[width=0.78\linewidth]{figUnivAnlFr1.pdf} 
+\includegraphics<2 | handout:0>[width=0.78\linewidth]{figUnivAnlFr2.pdf}
+\includegraphics<3 | handout:0>[width=0.78\linewidth]{figUnivAnlFr3.pdf}
+\end{center}
+\end{overlayarea}
+\end{frame}
+
+\subsection{Analyse multivariée des données}
+\begin{frame}
+\frametitle{Analyses multivariées des données - Corrélation et ACP} 
+
+\begin{table}[t!]
+\begin{center}
+\centering
+\scalebox{0.65}{
+\begin{tabular}{lccccc}
+\toprule
+{} & \textbf{Température} & \textbf{Énergie consommée} & \textbf{Prix de l'essence} & \textbf{HOD} & \textbf{HOEP} \\
+\midrule
+\textbf{Température}   	& \x1.00&0.02	&\B{0.81}	&$-$0.02	&0.15	\\
+\textbf{Énergie consommée}    & 	&1.00	&0.02	&\x0.06		&0.06	\\
+\textbf{Prix de l'essence} & 	&	&1.00	&$-$0.00	&0.17	\\
+\textbf{HOD}            & 	& 	&	&\x1.00		&\B{0.71}	\\
+\textbf{HOEP}           & 	&	&	&		&1.00	\\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+\end{table}
+
+\pause
+
+\begin{table}
+\begin{center}
+\centering
+\scalebox{0.65}{
+\begin{tabular}{lcccccc}
+\toprule
+{} & \textbf{1$^{\mbox{st}}$} & \textbf{2$^{\mbox{nd}}$} & 
+\textbf{3$^{\mbox{rd}}$} & \textbf{4$^{\mbox{th}}$} & \textbf{5$^{\mbox{th}}$} \\
+\midrule
+\textbf{Température}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
+\textbf{Énergie consommée}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
+\textbf{Prix de l'essence} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
+\textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
+\textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+\end{table}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Définition du Système d'Information} 
+
+
+\begin{itemize}
+\item HOEP ($\ve{x}^1$), HOD ($\ve{x}^2$), et température extérieur ($\ve{x}^3$) with 101 décalages.
+\item énergie consommée ($\ve{x}^4$) avec 199 décalages.
+\item variables scalaires : 
+\begin{itemize}
+\item $w_1:$ jour de la semaine,
+\item $w_2:$ heure;
+\item $w_3: C_\mathit{el}(t-1)-C_\mathit{el}(t)$ différence du prix de l'électricité,
+\item $w_4: C_\mathit{el}(t)$ prix de l'électricité au temps $t$ [\$/kWh],
+\item $w_5: C_\mathit{fuel}(t)$ prix de l’essence au temps $t$[\$/l],
+\item $w_6: dis(t)$ distance parcourue au temps $t$ [km].
+\end{itemize}
+\end{itemize}
+
+\pause
+... et l'état de charge du véhicule ainsi que les décisions optimales obtenues avec la programmation dynamique.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{ACP du Système d'Information} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.99\textwidth]{figPCAvarExplainedFr.png}
+\end{center}
+\end{figure}
+\end{frame}
+
+
+\section{Stratification des données}
+\subsection{Méthode pour la stratification de données}
+\begin{frame}
+\frametitle{Stratification des données} 
+\begin{figure}
+\begin{center}
+\includegraphics<1>[width=0.9\linewidth]{figClusteringTrainingFr_222_summer1.pdf}
+\includegraphics<2>[width=0.9\linewidth]{figStratEstimFr_222_summer1.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+% 
+\begin{frame}
+\frametitle{Stratification dans un problème de régression avec réseau de neurones} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{figDiff_ANN_Inp_state_year_2003.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Stratification dans un problème de régression avec machines à vecteurs de support} 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{figDiff_SVR_Inp_state_year_2003.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}
+\begin{center}
+\huge \textbf{Déterminer les périodes de recharge optimales}
+\end{center}
+\end{frame}
 
 
 \subsection{Définition de la problématique}
@@ -333,9 +551,6 @@
 \end{frame}
 
 
-
-\subsection{Objectifs}
-
 \begin{frame}
 \frametitle{Si on suppose qu'on connaît le futur?}
 \begin{center}
@@ -346,37 +561,28 @@
  \end{center}
 \end{frame}
 
+\begin{frame}{Formulation du problème}
 
-
-
-
-\begin{frame}
-\frametitle{Objectif: Minimiser le coût en énergie du VE}
-\begin{center}
+\begin{itemize}
+	\item Discrétisation de la journée et des états de charge
+	\item À chaque temps $t$, le véhicule peut être branché ($z(t)=1$) ou non branché ($z(t)=0$)
+	\item Si branché, on peut charger ou non ($a(t) = \{0, 1\}$)
+\begin{equation}\label{eq:costp1}
+S_p(t) = a(t) \cdot C_{el}(t) \cdot \frac{E_{ch}(SoC(t))}{\eta}
+\end{equation}
+	\item Sinon, on ne peut que consommer de l'énergie
+\begin{equation}\label{eq:costp2}
+S_u(t) = C_{fuel}(t) \cdot \max(F_{c}(SoC(t)),0)
+\end{equation}
+	\item Objectif : minimiser le coût d'utilisation
 \begin{equation}
-\min_{\{a(t)\}_{t=1}^T}~\sum_{t=1}^{T} \left[z(t) \cdot S_p(t) + (1-z(t)) \cdot S_u(t)\right],
+\min_{\{a(t)\}_{t=1}^T}~\sum_{t=1}^{T} \left[z(t) \cdot S_p(t) + (1-z(t)) \cdot S_u(t)\right]
 \label{eq:cost}
 \end{equation}
+\end{itemize}
 
-
-\begin{equation}\label{eq:costp1}
-S_p(t) = a(t) \cdot C_{el}(t) \cdot \frac{E_{ch}(SoC(t))}{\eta},
-\end{equation}
-
-
-\begin{equation}\label{eq:costp2}
-S_u(t) = C_{fuel}(t) \cdot \max(F_{c}(SoC(t)),0),
-\end{equation}
-\end{center}
 \end{frame}
 
-
-
-
-
-
-\section{Optimisation basée sur la Programmation Dynamique}
-\subsection{Processus de décision MarKovien}
 
 \begin{frame}
 \frametitle{Processus de décision Markovien}
@@ -385,26 +591,24 @@ S_u(t) = C_{fuel}(t) \cdot \max(F_{c}(SoC(t)),0),
 \item Les états :
  
 \begin{equation}
-s(t) = \frac{\lfloor \mathit{SoC}(t) \cdot B \rfloor + 0.5}{B}, 
+s(t) = \frac{\lfloor \mathit{SoC}(t) \cdot B \rfloor + 0.5}{B} 
 \label{eq:state}
 \end{equation}
 \item Les actions ($a=0$, $a=1$)
-\item La function de transition (modèle de batterie)
-\item La function de récompense :
+\item La fonction de transition (modèle de batterie)
+\item La fonction de récompense :
 \begin{equation}
 r(s(t),a) =
 \begin{cases}
-0 & \text{if $z(t)=1$ and $a=0$}\\
--C_{el}(t) \cdot \frac{E_{ch}(SoC(t))}{\eta} & \text{if $z(t)=1$ and $a=1$}\\
-- C_{fuel}(t) \cdot F_{c}(SoC(t)) & \text{if $z(t)=0$}   
+0 & \text{si $z(t)=1$ et $a=0$}\\
+-C_{el}(t) \cdot \frac{E_{ch}(SoC(t))}{\eta} & \text{si $z(t)=1$ et $a=1$}\\
+- C_{fuel}(t) \cdot F_{c}(SoC(t)) & \text{si $z(t)=0$}   
 \end{cases}.\label{eq:reward}
 \end{equation}
 \end{itemize}
 \end{center}
 \end{frame}
 
-
-\subsection{Programmation dynamique}
 
 
 \begin{frame}
@@ -439,7 +643,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \begin{center}
 \begin{figure}
 % \includegraphics[width=\linewidth]{minFct.pdf}
-\includegraphics[angle=90,width=0.9\linewidth]{figresDeltaWithoutGasBWcolor02-Sout.pdf}
+\includegraphics[width=0.9\linewidth]{figresDeltaWithoutGasBWcolor02-Sout2.pdf}
 \end{figure} 
  \end{center}
 \end{frame}
@@ -448,7 +652,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 \begin{frame}
 \begin{center}
-\frametitle{Comparaison de la programmation dynamique avec des techniques de base}
+\frametitle{Résultats}
 
 % \begin{table}[t!]
 % \begin{center}
@@ -457,8 +661,8 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \scalebox{0.8}{
 \begin{tabular}{ccccccccc}
 \toprule
-\multirow{3}{*}{} & \multicolumn{7}{c}{\B{Winter}} &  \\
- & \B{GAS} & \multicolumn{2}{c}{\B{DP}} & \multicolumn{2}{c}{\B{AC}} & \multicolumn{2}{c}{\B{RD}} & \\
+\multirow{3}{*}{} & \multicolumn{7}{c}{\B{Hiver}} &  \\
+ & \B{Essence} & \multicolumn{2}{c}{\B{Prog. dynamique}} & \multicolumn{2}{c}{\B{Charge toujours}} & \multicolumn{2}{c}{\B{RD}} & \\
  \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} 
  {} & \B{\$} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & {}  \\
 \midrule 
@@ -491,8 +695,8 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \scalebox{0.8}{
 \begin{tabular}{ccccccccc}
 \toprule
-\multirow{3}{*}{} & \multicolumn{7}{c}{\B{Summer}} &  \\
- & \B{GAS} & \multicolumn{2}{c}{\B{DP}} & \multicolumn{2}{c}{\B{AC}} & \multicolumn{2}{c}{\B{RD}} & \\
+\multirow{3}{*}{} & \multicolumn{7}{c}{\B{Été}} &  \\
+ & \B{Essence} & \multicolumn{2}{c}{\B{Prog. dynamique}} & \multicolumn{2}{c}{\B{Charge toujours}} & \multicolumn{2}{c}{\B{RD}} & \\
  \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} 
  {} & \B{\$} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & \B{\$} & \B{\%} & {}  \\
 \midrule 
@@ -523,7 +727,6 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 % \end{table}
 \end{center}
 \end{frame}
-
 
 
 
@@ -636,7 +839,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Stratification dans un problème de régression avec réseau de neurones} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Diff_ANN_Inp_space_year_2003.pdf}
+\includegraphics[width=0.7\textwidth]{figDiff_ANN_Inp_state_year_2003.pdf}
 \end{center}
 \end{figure}
 \end{frame}
@@ -645,7 +848,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Stratification dans un problème de régression avec machines à vecteurs de support} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{Diff_SVR_Inp_state_year_2003.pdf}
+\includegraphics[width=0.7\textwidth]{figDiff_SVR_Inp_state_year_2003.pdf}
 \end{center}
 \end{figure}
 \end{frame}
@@ -657,31 +860,48 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \subsection{Méthodologie}
 
 
+ \begin{frame}{Considérations importantes}
+ \begin{itemize}
+ 	\item Aucune hypothèse nécessaire sur les modèles utilisés
+ 	\begin{itemize}
+ 		\item Voiture hybride rechargeable / 100\% électrique
+ 		\item Caractéristiques de la batterie
+ 		\item Caractéristiques du chargeur
+ 		\item Incitatifs supplémentaires (e.g. vente d'électricité)
+ 	\end{itemize}
+ 	\item La solution obtenue est \emph{globalement optimale}
+ \end{itemize}
+ \end{frame}
+ 
+ 
+
 
 \begin{frame}
-\frametitle{Révision de la méthodologie} 
-\begin{figure}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{artMeth2CompactFr.pdf}
+%\includegraphics[width=0.7\textwidth]{artMeth2CompactFr.pdf}
+\huge \textbf{Apprendre les décisions optimales}
 \end{center}
-\end{figure}
 \end{frame}
 
-
-\begin{frame}
-\frametitle{Techniques utilisées} 
+\begin{frame}{Pipeline d'apprentissage automatique}
 \begin{itemize}
-\item Threshold-Based Rule
-\item k-Nearest Neighbors
-\item Shallow Neural Network with Stratified Data
-\item Deep Neural Networks 
+	\item Mêmes données d'entrée, sans connaître le futur
+	\item Vérité terrain donnée par la programmation dynamique
+	\item Techniques comparées :
+	\begin{itemize}
+		\item Système de régles à base de seuils
+		\item k-plus proches voisins
+		\item Réseaux de neurones avec de données stratifiés
+		 \item Réseaux de neurones profonds
+ 
+	\end{itemize}
 \end{itemize}
 
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Threshold-Based Rule} 
+\frametitle{Système de régles à base de seuils} 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figtbrFr.pdf}
@@ -692,7 +912,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 
 \begin{frame}
-\frametitle{k-Nearest Neighbors} 
+\frametitle{k-plus proches voisins} 
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.9\textwidth]{figknn.pdf}
@@ -731,7 +951,15 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \frametitle{Résultats} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{figCostMLFr.pdf}
+\begin{overlayarea}{\linewidth}{2.8in}
+\includegraphics<1 | handout:0>[width=\linewidth]{figCostMLFr01.pdf}
+\includegraphics<2 | handout:0>[width=\linewidth]{figCostMLFr02.pdf}
+\includegraphics<3 | handout:0>[width=\linewidth]{figCostMLFr03.pdf}
+\includegraphics<4 | handout:0>[width=\linewidth]{figCostMLFr04.pdf}
+\includegraphics<5 | handout:0>[width=\linewidth]{figCostMLFr05.pdf}
+\includegraphics<6 | handout:0>[width=\linewidth]{figCostMLFr06.pdf}
+\includegraphics<7 | handout:0>[width=\linewidth]{figCostMLFr07.pdf}
+\end{overlayarea}
 \end{center}
 \end{figure}
 \end{frame}
@@ -741,12 +969,13 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \section{Contributions}
 \begin{frame}
 \frametitle{Contributions}
-\begin{itemize} 
-\item Définition de la recharge comme un problème de prise de décisions en temps réel
-\item Développement des algorithmes d'apprentissage pour la recharge intelligente de VE
-\item Analyse des données
-\item Convergence de méthodes déterministes et de l'apprentissage automatique
-\end{itemize}
+
+Papers in conference proceedings
+\begin{itemize}
+   \item \bibentry{lopez2018b}.
+   
+\end{itemize} 
+
 \end{frame}
 
 \begin{frame}
@@ -772,6 +1001,11 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 % \hfill \includegraphics[width=0.2\linewidth]{fig/bf.pdf}
 \end{frame}
 }
+
+% \bibliographystyle{plainnat}
+\bibliographystyle{plain}
+\bibliography{references}                 % production de la bibliographie
+
 
 \end{document}
 }

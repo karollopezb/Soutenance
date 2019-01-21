@@ -31,12 +31,18 @@
 \usepackage{algorithmic}
 \usepackage{algorithm}
 % mathematical
+% 
+\usepackage{bibentry}
+\nobibliography*
+% 
+
 \usepackage{amssymb}
 \usepackage{pifont}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{animate}
 \usepackage{hyperref}
+
 
 \graphicspath{{fig}}
 
@@ -723,130 +729,130 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 \end{frame}
 
 
-
-\section{Système d'information}
-\subsection{Analyse univariée des données}
-\begin{frame}
-\frametitle{Analyses univariées des données} 
-\begin{overlayarea}{\linewidth}{2.8in}
-\begin{center} 
-\includegraphics<1 | handout:0>[width=0.78\linewidth]{figUnivAnlFr1.pdf} 
-\includegraphics<2 | handout:0>[width=0.78\linewidth]{figUnivAnlFr2.pdf}
-\includegraphics<3 | handout:0>[width=0.78\linewidth]{figUnivAnlFr3.pdf}
-\end{center}
-\end{overlayarea}
-\end{frame}
-
-\subsection{Analyse multivariée des données}
-\begin{frame}
-\frametitle{Analyses multivariées des données - Corrélation et ACP} 
-
-\begin{table}[t!]
-\begin{center}
-\centering
-\scalebox{0.65}{
-\begin{tabular}{lccccc}
-\toprule
-{} & \textbf{Température} & \textbf{Énergie consommée} & \textbf{Prix de l'essence} & \textbf{HOD} & \textbf{HOEP} \\
-\midrule
-\textbf{Température}   	& \x1.00&0.02	&\B{0.81}	&$-$0.02	&0.15	\\
-\textbf{Énergie consommée}    & 	&1.00	&0.02	&\x0.06		&0.06	\\
-\textbf{Prix de l'essence} & 	&	&1.00	&$-$0.00	&0.17	\\
-\textbf{HOD}            & 	& 	&	&\x1.00		&\B{0.71}	\\
-\textbf{HOEP}           & 	&	&	&		&1.00	\\
-\bottomrule
-\end{tabular}
-}
-\end{center}
-\end{table}
-
-\pause
-
-\begin{table}
-\begin{center}
-\centering
-\scalebox{0.65}{
-\begin{tabular}{lcccccc}
-\toprule
-{} & \textbf{1$^{\mbox{st}}$} & \textbf{2$^{\mbox{nd}}$} & 
-\textbf{3$^{\mbox{rd}}$} & \textbf{4$^{\mbox{th}}$} & \textbf{5$^{\mbox{th}}$} \\
-\midrule
-\textbf{Température}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
-\textbf{Énergie consommée}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
-\textbf{Prix de l'essence} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
-\textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
-\textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
-\bottomrule
-\end{tabular}
-}
-\end{center}
-\end{table}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Définition du Système d'Information} 
-
-
-\begin{itemize}
-\item HOEP ($\ve{x}^1$), HOD ($\ve{x}^2$), et température extérieur ($\ve{x}^3$) with 101 décalages.
-\item énergie consommée ($\ve{x}^4$) avec 199 décalages.
-\item variables scalaires : 
-\begin{itemize}
-\item $w_1:$ jour de la semaine,
-\item $w_2:$ heure;
-\item $w_3: C_\mathit{el}(t-1)-C_\mathit{el}(t)$ différence du prix de l'électricité,
-\item $w_4: C_\mathit{el}(t)$ prix de l'électricité au temps $t$ [\$/kWh],
-\item $w_5: C_\mathit{fuel}(t)$ prix de l’essence au temps $t$[\$/l],
-\item $w_6: dis(t)$ distance parcourue au temps $t$ [km].
-\end{itemize}
-\end{itemize}
-
-\pause
-... et l'état de charge du véhicule ainsi que les décisions optimales obtenues avec la programmation dynamique.
-
-\end{frame}
-
-\begin{frame}
-\frametitle{ACP du Système d'Information} 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.99\textwidth]{figPCAvarExplainedFr.png}
-\end{center}
-\end{figure}
-\end{frame}
-
-
-\section{Stratification des données}
-\subsection{Méthode pour la stratification de données}
-\begin{frame}
-\frametitle{Stratification des données} 
-\begin{figure}
-\begin{center}
-\includegraphics<1>[width=0.9\linewidth]{figClusteringTrainingFr_222_summer1.pdf}
-\includegraphics<2>[width=0.9\linewidth]{figStratEstimFr_222_summer1.pdf}
-\end{center}
-\end{figure}
-\end{frame}
 % 
-\begin{frame}
-\frametitle{Stratification dans un problème de régression avec réseau de neurones} 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{figDiff_ANN_Inp_state_year_2003.pdf}
-\end{center}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\frametitle{Stratification dans un problème de régression avec machines à vecteurs de support} 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.7\textwidth]{figDiff_SVR_Inp_state_year_2003.pdf}
-\end{center}
-\end{figure}
-\end{frame}
+% \section{Système d'information}
+% \subsection{Analyse univariée des données}
+% \begin{frame}
+% \frametitle{Analyses univariées des données} 
+% \begin{overlayarea}{\linewidth}{2.8in}
+% \begin{center} 
+% \includegraphics<1 | handout:0>[width=0.78\linewidth]{figUnivAnlFr1.pdf} 
+% \includegraphics<2 | handout:0>[width=0.78\linewidth]{figUnivAnlFr2.pdf}
+% \includegraphics<3 | handout:0>[width=0.78\linewidth]{figUnivAnlFr3.pdf}
+% \end{center}
+% \end{overlayarea}
+% \end{frame}
 % 
+% \subsection{Analyse multivariée des données}
+% \begin{frame}
+% \frametitle{Analyses multivariées des données - Corrélation et ACP} 
+% 
+% \begin{table}[t!]
+% \begin{center}
+% \centering
+% \scalebox{0.65}{
+% \begin{tabular}{lccccc}
+% \toprule
+% {} & \textbf{Température} & \textbf{Énergie consommée} & \textbf{Prix de l'essence} & \textbf{HOD} & \textbf{HOEP} \\
+% \midrule
+% \textbf{Température}   	& \x1.00&0.02	&\B{0.81}	&$-$0.02	&0.15	\\
+% \textbf{Énergie consommée}    & 	&1.00	&0.02	&\x0.06		&0.06	\\
+% \textbf{Prix de l'essence} & 	&	&1.00	&$-$0.00	&0.17	\\
+% \textbf{HOD}            & 	& 	&	&\x1.00		&\B{0.71}	\\
+% \textbf{HOEP}           & 	&	&	&		&1.00	\\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{center}
+% \end{table}
+% 
+% \pause
+% 
+% \begin{table}
+% \begin{center}
+% \centering
+% \scalebox{0.65}{
+% \begin{tabular}{lcccccc}
+% \toprule
+% {} & \textbf{1$^{\mbox{st}}$} & \textbf{2$^{\mbox{nd}}$} & 
+% \textbf{3$^{\mbox{rd}}$} & \textbf{4$^{\mbox{th}}$} & \textbf{5$^{\mbox{th}}$} \\
+% \midrule
+% \textbf{Température}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
+% \textbf{Énergie consommée}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
+% \textbf{Prix de l'essence} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
+% \textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
+% \textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{center}
+% \end{table}
+% \end{frame}
+% 
+% 
+% \begin{frame}
+% \frametitle{Définition du Système d'Information} 
+% 
+% 
+% \begin{itemize}
+% \item HOEP ($\ve{x}^1$), HOD ($\ve{x}^2$), et température extérieur ($\ve{x}^3$) with 101 décalages.
+% \item énergie consommée ($\ve{x}^4$) avec 199 décalages.
+% \item variables scalaires : 
+% \begin{itemize}
+% \item $w_1:$ jour de la semaine,
+% \item $w_2:$ heure;
+% \item $w_3: C_\mathit{el}(t-1)-C_\mathit{el}(t)$ différence du prix de l'électricité,
+% \item $w_4: C_\mathit{el}(t)$ prix de l'électricité au temps $t$ [\$/kWh],
+% \item $w_5: C_\mathit{fuel}(t)$ prix de l’essence au temps $t$[\$/l],
+% \item $w_6: dis(t)$ distance parcourue au temps $t$ [km].
+% \end{itemize}
+% \end{itemize}
+% 
+% \pause
+% ... et l'état de charge du véhicule ainsi que les décisions optimales obtenues avec la programmation dynamique.
+% 
+% \end{frame}
+% 
+% \begin{frame}
+% \frametitle{ACP du Système d'Information} 
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=0.99\textwidth]{figPCAvarExplainedFr.png}
+% \end{center}
+% \end{figure}
+% \end{frame}
+% 
+% 
+% \section{Stratification des données}
+% \subsection{Méthode pour la stratification de données}
+% \begin{frame}
+% \frametitle{Stratification des données} 
+% \begin{figure}
+% \begin{center}
+% \includegraphics<1>[width=0.9\linewidth]{figClusteringTrainingFr_222_summer1.pdf}
+% \includegraphics<2>[width=0.9\linewidth]{figStratEstimFr_222_summer1.pdf}
+% \end{center}
+% \end{figure}
+% \end{frame}
+% % 
+% \begin{frame}
+% \frametitle{Stratification dans un problème de régression avec réseau de neurones} 
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=0.7\textwidth]{figDiff_ANN_Inp_state_year_2003.pdf}
+% \end{center}
+% \end{figure}
+% \end{frame}
+% 
+% \begin{frame}
+% \frametitle{Stratification dans un problème de régression avec machines à vecteurs de support} 
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=0.7\textwidth]{figDiff_SVR_Inp_state_year_2003.pdf}
+% \end{center}
+% \end{figure}
+% \end{frame}
+% % 
 
 
 \section{Recharge intelligente de VE}
@@ -962,24 +968,21 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 \section{Contributions}
 \begin{frame}
-\frametitle{Contributions}
-\begin{itemize} 
-\item Définition de la recharge comme un problème de prise de décisions en temps réel
-\item Développement des algorithmes d'apprentissage pour la recharge intelligente de VE
-\item Analyse des données
-\item Convergence de méthodes déterministes et de l'apprentissage automatique
-\end{itemize}
+\frametitle{Papers in conference proceedings}
+\begin{itemize}
+   \item \bibentry{lopez2018b}.   
+\end{itemize} 
+
 \end{frame}
 
 \begin{frame}
-\frametitle{Bénéfices de la recharge décentralisée des VE à tarifs dynamiques} 
+\frametitle{Journal articles} 
+
+
 \begin{itemize}
-\item Aplatir la courbe de charge 
-%\item Minimiser la production d'électricité 
-\item Régulation de fréquence 
-\item Réduire le coût de production de l'énergie électrique 
-\item Optimiser l'efficacité générale du système
- \end{itemize}
+  \item \bibentry{lopez2018}.
+  \item \bibentry{lopez2015}.
+\end{itemize}
 \end{frame}
 
 
@@ -994,6 +997,12 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 % \hfill \includegraphics[width=0.2\linewidth]{fig/bf.pdf}
 \end{frame}
 }
+
+\bibliographystyle{siam}
+% \bibliographystyle{plainnat}
+% \bibliographystyle{plain-fr}
+\bibliography{references}                 % production de la bibliographie
+
 
 \end{document}
 }

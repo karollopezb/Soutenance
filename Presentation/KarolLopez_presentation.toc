@@ -7,12 +7,7 @@
 \beamer@subsectionintoc {3}{1}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{24}{0}{3}
 \beamer@subsectionintoc {3}{2}{D\IeC {\'e}finition de la probl\IeC {\'e}matique}{29}{0}{3}
 \beamer@subsectionintoc {3}{3}{R\IeC {\'e}sultats obtenus avec la programmation dynamique}{38}{0}{3}
-\beamer@sectionintoc {4}{Syst\IeC {\`e}me d'information}{39}{0}{4}
-\beamer@subsectionintoc {4}{1}{Analyse univari\IeC {\'e}e des donn\IeC {\'e}es}{39}{0}{4}
-\beamer@subsectionintoc {4}{2}{Analyse multivari\IeC {\'e}e des donn\IeC {\'e}es}{42}{0}{4}
-\beamer@sectionintoc {5}{Stratification des donn\IeC {\'e}es}{47}{0}{5}
-\beamer@subsectionintoc {5}{1}{M\IeC {\'e}thode pour la stratification de donn\IeC {\'e}es}{47}{0}{5}
-\beamer@sectionintoc {6}{Recharge intelligente de VE}{51}{0}{6}
-\beamer@subsectionintoc {6}{1}{M\IeC {\'e}thodologie}{51}{0}{6}
-\beamer@subsectionintoc {6}{2}{Analyse des r\IeC {\'e}sultats}{56}{0}{6}
-\beamer@sectionintoc {7}{Contributions}{66}{0}{7}
+\beamer@sectionintoc {4}{Recharge intelligente de VE}{39}{0}{4}
+\beamer@subsectionintoc {4}{1}{M\IeC {\'e}thodologie}{39}{0}{4}
+\beamer@subsectionintoc {4}{2}{Analyse des r\IeC {\'e}sultats}{44}{0}{4}
+\beamer@sectionintoc {5}{Contributions}{54}{0}{5}
