@@ -155,8 +155,11 @@
 \title[Recharge intelligente de VE]{Une approche d'apprentissage automatique pour la recharge intelligente des véhicules électriques} 
 % \title[Recharge intelligente de VE \hspace{5mm} \cronominutes:\cronoseconds]{Une approche d'apprentissage automatique pour la recharge intelligente des véhicules électriques} 
 
-\author[Karol Lina L\'opez]{\texorpdfstring{Karol Lina L\'opez\newline\href{mailto:karol-lina.lopez.1@ulaval.ca}{karol-lina.lopez.1@ulaval.ca}}{Karol Lina L\'opez}}
-  \centering
+\author[Karol Lina L\'opez]{\texorpdfstring{Karol Lina L\'opez\newline\href{mailto:karol-lina.lopez.1@ulaval.ca}{karol-lina.lopez.1@ulaval.ca}}{Karol Lina L\'opez} {\newline\newline\small Sous la direction de :\newline Christian Gagné \newline } }
+% \author{Sous la direction de : Christian Gagné} 
+% [10mm]{\small Supervisors: supervisor1 \\ \hspace{18mm}}
+
+\centering
  \titlegraphic{
 % \begin{minipage}{0.33\textwidth}
 % \includegraphics[width=2.5cm]{REPARTI.jpg}
@@ -177,7 +180,8 @@
  \centering \includegraphics[width=2.5cm]{LVSN2.png}
  \end{minipage}
  }
-\date{22 jan 2019} % Date, can be changed to a custom date
+
+ \date{22 jan 2019} % Date, can be changed to a custom date
 
 
 \begin{document}
@@ -387,7 +391,7 @@
 \addtocounter{framenumber}{-1}
 
 
-\begin{frame}{Méthodologie générale}
+\begin{frame}{Approche proposée}
 \begin{center}
 %\includegraphics[width=0.25\linewidth]{dollarelectricity}\hspace{0.2\linewidth}
 %\includegraphics[width=0.25\linewidth]{cadran}
@@ -401,23 +405,14 @@
 \end{center}
 \end{frame}
 
-%\begin{frame}{Approches d'apprentissage disponibles}
-%\includegraphics[width=0.7\linewidth]{neuralnet_stylised-1}
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{Méthodologie générale}
-%\includegraphics[width=\linewidth]{schema-global}
-%\end{frame}
-
-%%\begin{frame}
-%%\frametitle{Méthodologie générale}
-%%\begin{enumerate}
-%%	\item Obtenir et analyser les données pertinentes
-%%	\item Déterminer les décisions optimales correspondantes
-%%	\item Proposer une méthode d'apprentissage capable d'approcher les décisions optimales
-%%\end{enumerate}
-%%\end{frame}
+\begin{frame}
+\frametitle{Méthodologie générale}
+\begin{enumerate}
+	\item Obtenir et analyser les données pertinentes
+	\item Déterminer les décisions optimales correspondantes
+	\item Proposer une méthode d'apprentissage capable d'approcher les décisions optimales
+\end{enumerate}
+\end{frame}
 
 
 \section{Analyse des données}
@@ -437,21 +432,21 @@
 \frametitle{Analyses univariées des données} 
 \begin{overlayarea}{\linewidth}{2.8in}
 \begin{center} 
-\includegraphics<1 | handout:0>[width=0.95\linewidth]{figUnivAnlFr1.pdf} 
-\includegraphics<2 | handout:0>[width=0.95\linewidth]{figUnivAnlFr2.pdf}
-\includegraphics<3>[width=0.95\linewidth]{figUnivAnlFr3.pdf}
+% \includegraphics<1 | handout:0>[width=0.95\linewidth]{figUnivAnlFr1.pdf} 
+% \includegraphics<2 | handout:0>[width=0.95\linewidth]{figUnivAnlFr2.pdf}
+\includegraphics<1>[width=0.95\linewidth]{figUnivAnlFr3.pdf}
 \end{center}
 \end{overlayarea}
 \end{frame}
 
 \subsection{Analyse multivariée des données}
 \begin{frame}
-\frametitle{Analyses multivariées des données - Corrélation et ACP} 
+\frametitle{Analyses multivariées des données - Corrélation} 
 
 \begin{table}[t!]
 \begin{center}
 \centering
-\scalebox{0.8}{
+\scalebox{0.9}{
 \begin{tabular}{lccccc}
 \toprule
 {} & \textbf{Temp.} & \textbf{Énergie} & \textbf{\$ Essence} & \textbf{HOD} & \textbf{HOEP} \\
@@ -466,28 +461,28 @@
 }
 \end{center}
 \end{table}
-
-\pause
-
-\begin{table}
-\begin{center}
-\centering
-\scalebox{0.8}{
-\begin{tabular}{lcccccc}
-\toprule
-{} & \textbf{1$^{\mbox{er}}$} & \textbf{2$^{\mbox{\`eme}}$} & 
-\textbf{3$^{\mbox{\`eme}}$} & \textbf{4$^{\mbox{\`eme}}$} & \textbf{5$^{\mbox{\`eme}}$} \\
-\midrule
-\textbf{Temp}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
-\textbf{Énergie}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
-\textbf{\$ Essence} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
-\textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
-\textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
-\bottomrule
-\end{tabular}
-}
-\end{center}
-\end{table}
+% 
+% \pause
+% 
+% \begin{table}
+% \begin{center}
+% \centering
+% \scalebox{0.8}{
+% \begin{tabular}{lcccccc}
+% \toprule
+% {} & \textbf{1$^{\mbox{er}}$} & \textbf{2$^{\mbox{\`eme}}$} & 
+% \textbf{3$^{\mbox{\`eme}}$} & \textbf{4$^{\mbox{\`eme}}$} & \textbf{5$^{\mbox{\`eme}}$} \\
+% \midrule
+% \textbf{Temp}   &0.57&$-$0.41&$-$0.01&$-$0.06&\x0.71\\
+% \textbf{Énergie}    &0.08&\x0.08&\x0.99&\x0.01&\x0.00\\
+% \textbf{\$ Essence} &0.58&$-$0.40&$-$0.02&$-$0.10&$-$0.71\\
+% \textbf{HOD}                &0.35&\x0.63&$-$0.07&$-$0.69&\x0.03\\
+% \textbf{HOEP}              &0.47&\x0.52&$-$0.09&\x0.71&$-$0.01\\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{center}
+% \end{table}
 \end{frame}
 
 
@@ -573,17 +568,17 @@
 \includegraphics<3>[width=0.9\linewidth]{obj03.pdf}
 \end{center}
 \end{frame}
-
-
-\begin{frame}
-\frametitle{Si on suppose qu'on connaît le futur?}
-\begin{center}
-\begin{figure}
-% \includegraphics[width=\linewidth]{minFct.pdf}
-\includegraphics[width=\linewidth]{PriceDist_201Fr.pdf}
-\end{figure} 
- \end{center}
-\end{frame}
+% 
+% 
+% \begin{frame}
+% \frametitle{Si on suppose qu'on connaît le futur?}
+% \begin{center}
+% \begin{figure}
+% % \includegraphics[width=\linewidth]{minFct.pdf}
+% \includegraphics[width=\linewidth]{PriceDist_201Fr.pdf}
+% \end{figure} 
+%  \end{center}
+% \end{frame}
 
 \begin{frame}{Formulation du problème}
 
@@ -916,7 +911,7 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 	\item Vérité terrain donnée par la programmation dynamique
 	\item Techniques comparées :
 	\begin{itemize}
-		\item Système de régles à base de seuils
+		\item Système de règles à base de seuils
 		\item k-plus proches voisins
 		\item Réseaux de neurones avec de données stratifiés
 		 \item Réseaux de neurones profonds
@@ -928,24 +923,24 @@ a^*(t) = \argmax\limits_{a\in\mathcal{A}}~Q(s(t),a).\label{eq:adecisions}
 
 
 \begin{frame}
-\frametitle{Système de régles à base de seuils} 
+\frametitle{Système de règles à base de seuils} 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.9\textwidth]{figtbrFr.pdf}
+\includegraphics[width=0.9\textwidth]{figtbrFr3.pdf}
 \end{center}
 \end{figure}
 \end{frame}
 % 
 
-
-\begin{frame}
-\frametitle{k-plus proches voisins} 
-\begin{figure}
-\begin{center}
-\includegraphics[width=0.9\textwidth]{figknn.pdf}
-\end{center}
-\end{figure}
-\end{frame}
+% 
+% \begin{frame}
+% \frametitle{k-plus proches voisins} 
+% \begin{figure}
+% \begin{center}
+% \includegraphics[width=0.9\textwidth]{figknn.pdf}
+% \end{center}
+% \end{figure}
+% \end{frame}
 % 
 % 
 
