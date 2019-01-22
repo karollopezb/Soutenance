@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.28)  21 JAN 2019 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.28)  21 JAN 2019 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1962,91 +1962,91 @@ Overfull \vbox (30.8606pt too high) detected at line 968
 [41
 
  <./fig/figResAnalysis03.pdf>]
-<fig/figCostMLwithoutKmeansFr01.pdf, id=582, pagebox=cropbox, 1158.75917pt x 72
-6.36371pt>
+<fig/figCostMLwithoutKmeansFr01.pdf, id=582, pagebox=cropbox, 1045.29523pt x 71
+9.71889pt>
 File: fig/figCostMLwithoutKmeansFr01.pdf Graphic file (type pdf)
 <use fig/figCostMLwithoutKmeansFr01.pdf>
 Package pdftex.def Info: fig/figCostMLwithoutKmeansFr01.pdf  used on input line
  986. on input line 986.
-Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
-e 986.
+Package pdftex.def Info: Requested size: 342.43532pt x 235.7728pt on input line
+ 986.
 
-Overfull \vbox (25.89606pt too high) detected at line 986
+Overfull \vbox (47.01659pt too high) detected at line 986
  []
 
 [42
 
  <./fig/figCostMLwithoutKmeansFr01.pdf>]
-<fig/figCostMLwithoutKmeansFr02.pdf, id=605, pagebox=cropbox, 1158.75917pt x 72
-6.36371pt>
+<fig/figCostMLwithoutKmeansFr02.pdf, id=598, pagebox=cropbox, 1045.29523pt x 71
+9.71889pt>
 File: fig/figCostMLwithoutKmeansFr02.pdf Graphic file (type pdf)
 <use fig/figCostMLwithoutKmeansFr02.pdf>
 Package pdftex.def Info: fig/figCostMLwithoutKmeansFr02.pdf  used on input line
  986. on input line 986.
-Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
-e 986.
+Package pdftex.def Info: Requested size: 342.43532pt x 235.7728pt on input line
+ 986.
 
-Overfull \vbox (25.89606pt too high) detected at line 986
+Overfull \vbox (47.01659pt too high) detected at line 986
  []
 
 [43
 
  <./fig/figCostMLwithoutKmeansFr02.pdf>]
-<fig/figCostMLwithoutKmeansFr03.pdf, id=629, pagebox=cropbox, 1158.75917pt x 72
-6.36371pt>
+<fig/figCostMLwithoutKmeansFr03.pdf, id=615, pagebox=cropbox, 1045.29523pt x 71
+9.71889pt>
 File: fig/figCostMLwithoutKmeansFr03.pdf Graphic file (type pdf)
 <use fig/figCostMLwithoutKmeansFr03.pdf>
 Package pdftex.def Info: fig/figCostMLwithoutKmeansFr03.pdf  used on input line
  986. on input line 986.
-Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
-e 986.
+Package pdftex.def Info: Requested size: 342.43532pt x 235.7728pt on input line
+ 986.
 
-Overfull \vbox (25.89606pt too high) detected at line 986
+Overfull \vbox (47.01659pt too high) detected at line 986
  []
 
 [44
 
  <./fig/figCostMLwithoutKmeansFr03.pdf>]
-<fig/figCostMLwithoutKmeansFr04.pdf, id=653, pagebox=cropbox, 1158.75917pt x 72
-6.36371pt>
+<fig/figCostMLwithoutKmeansFr04.pdf, id=631, pagebox=cropbox, 1045.29523pt x 71
+9.71889pt>
 File: fig/figCostMLwithoutKmeansFr04.pdf Graphic file (type pdf)
 <use fig/figCostMLwithoutKmeansFr04.pdf>
 Package pdftex.def Info: fig/figCostMLwithoutKmeansFr04.pdf  used on input line
  986. on input line 986.
-Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
-e 986.
+Package pdftex.def Info: Requested size: 342.43532pt x 235.7728pt on input line
+ 986.
 
-Overfull \vbox (25.89606pt too high) detected at line 986
+Overfull \vbox (47.01659pt too high) detected at line 986
  []
 
 [45
 
  <./fig/figCostMLwithoutKmeansFr04.pdf>]
-<fig/figCostMLwithoutKmeansFr05.pdf, id=679, pagebox=cropbox, 1158.75917pt x 72
-6.36371pt>
+<fig/figCostMLwithoutKmeansFr05.pdf, id=651, pagebox=cropbox, 1045.29523pt x 71
+9.71889pt>
 File: fig/figCostMLwithoutKmeansFr05.pdf Graphic file (type pdf)
 <use fig/figCostMLwithoutKmeansFr05.pdf>
 Package pdftex.def Info: fig/figCostMLwithoutKmeansFr05.pdf  used on input line
  986. on input line 986.
-Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
-e 986.
+Package pdftex.def Info: Requested size: 342.43532pt x 235.7728pt on input line
+ 986.
 
-Overfull \vbox (25.89606pt too high) detected at line 986
+Overfull \vbox (47.01659pt too high) detected at line 986
  []
 
 [46
 
  <./fig/figCostMLwithoutKmeansFr05.pdf>]
-<fig/figCostMLwithoutKmeansFr06.pdf, id=705, pagebox=cropbox, 1158.75917pt x 72
-6.36371pt>
+<fig/figCostMLwithoutKmeansFr06.pdf, id=670, pagebox=cropbox, 1045.29523pt x 71
+9.71889pt>
 File: fig/figCostMLwithoutKmeansFr06.pdf Graphic file (type pdf)
 <use fig/figCostMLwithoutKmeansFr06.pdf>
 Package pdftex.def Info: fig/figCostMLwithoutKmeansFr06.pdf  used on input line
  986. on input line 986.
-Package pdftex.def Info: Requested size: 342.43532pt x 214.65227pt on input lin
-e 986.
+Package pdftex.def Info: Requested size: 342.43532pt x 235.7728pt on input line
+ 986.
 
-Overfull \vbox (16.37608pt too high) detected at line 986
+Overfull \vbox (37.49661pt too high) detected at line 986
  []
 
 [47
@@ -2063,7 +2063,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
 ] [50
 
 ]
-<fig/quest.jpg, id=750, 770.88pt x 545.03625pt>
+<fig/quest.jpg, id=708, 770.88pt x 545.03625pt>
 File: fig/quest.jpg Graphic file (type jpg)
 <use fig/quest.jpg>
 Package pdftex.def Info: fig/quest.jpg  used on input line 1049. on input line 
@@ -2129,10 +2129,10 @@ per/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on KarolLopez_jan22.pdf (52 pages, 7335167 bytes).
+Output written on KarolLopez_jan22.pdf (52 pages, 7317226 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
+ 832 PDF objects out of 1000 (max. 8388607)
+ 591 compressed objects within 6 object streams
  130 named destinations out of 1000 (max. 500000)
  358 words of extra memory for PDF output out of 10000 (max. 10000000)
 
